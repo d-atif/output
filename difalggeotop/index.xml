@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/output/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/output/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://d-atif.github.io/output/difalggeotop/</fr:uri>
+    <fr:display-uri>difalggeotop</fr:display-uri>
+    <fr:route>/output/difalggeotop/</fr:route>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>See this: https://youtu.be/B0E0q6ICK3c?si=Q-l8l-j4ORr9qRN9&amp;t=957</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://d-atif.github.io/output/list/</fr:uri>
+            <fr:display-uri>list</fr:display-uri>
+            <fr:route>/output/list/</fr:route>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:ul><html:li><fr:link href="/output/test/" title="Creation of (co)limits" uri="https://d-atif.github.io/output/test/" display-uri="test" type="local">A thought</fr:link></html:li>
+  <html:li><fr:link href="/output/0001/" title="https://d-atif.github.io/output/0001/" uri="https://d-atif.github.io/output/0001/" display-uri="0001" type="local">Another one</fr:link></html:li>
+  <html:li><fr:link href="/output/difalggeotop/" title="https://d-atif.github.io/output/difalggeotop/" uri="https://d-atif.github.io/output/difalggeotop/" display-uri="difalggeotop" type="local">ODs come from the algebraic geometr-topology interaction</fr:link></html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
