@@ -122,7 +122,7 @@
 
 <html:li>is there perhaps a correspondence between discrete manifolds and the manifolds that we can (in some sensible way) associate with a q+1 tree that tesselates the hyperbolic plane</html:li>
 
-<html:li>can we tesselate hyperbolic plane with Z ?
+<html:li>can we tesselate hyperbolic plane with <fr:tex display="inline"><![CDATA[Z]]></fr:tex> ?
     <html:ul><html:li>probably not a tesselation, but. a spiral? 🌀 (tangential stuff below)</html:li>
     <html:li>do we get anything if we try to define a curve as a graph with uncountably many points? or thats how we start, then we impose additional structure on it, that we need ie top and geo structure. question: would the graph aspect perhaps eliminate some pathologies? would it eliminate interesting curves?</html:li></html:ul>
 
@@ -132,7 +132,7 @@
 
 <html:li>are the wave and heat equations part of some well known class of equations?</html:li>
 
-<html:li>bethe lattices (“occur”) can be viewed as discrete subgroups of fuchsian groups (theyre also lattices in the sense of a lattice in a Lie group). modular group is a fuchsian group. when the modular group acts on H, it tesselates H, the orbifold that corresponds to that tesselation was drawn by Lejla… two cusps, infinite neck thing. lets pretend that some bethe lattice corresponds to the modular (fuschsian) group (in worst case scenario, i hope we can find for a specific q a group that yields orbifolds as the modular group does). now, perhaps the corresponding bethe lattice subgroup of the modular group induces a coarser tesselation of the tesselation by the whole modular group. what’s the corresponding orbifold/manifold of that tesselation? let’s solve wave equation on that! and investigate if theres a connection with the kernels of the wave eq on the q+1 regular tree Tq+1</html:li></html:li></html:ul>
+<html:li>bethe lattices (“occur”) can be viewed as discrete subgroups of fuchsian groups (theyre also lattices in the sense of a lattice in a Lie group). modular group is a fuchsian group. when the modular group acts on H, it tesselates H, the orbifold that corresponds to that tesselation was drawn by Lejla… two cusps, infinite neck thing. lets pretend that some bethe lattice corresponds to the modular (fuschsian) group (in worst case scenario, i hope we can find for a specific q a group that yields orbifolds as the modular group does). now, perhaps the corresponding bethe lattice subgroup of the modular group induces a coarser tesselation of the tesselation by the whole modular group. what’s the corresponding orbifold/manifold of that tesselation? let’s solve wave equation on that! and investigate if theres a connection with the kernels of the wave eq on the <fr:tex display="inline"><![CDATA[q+1]]></fr:tex> regular tree <fr:tex display="inline"><![CDATA[T_{q+1}]]></fr:tex></html:li></html:li></html:ul>
                 <html:p>problem s ovom pricom je sto (valjda?) obicno korsitimo fundamnetalni poligon da dobijemo info o manifoldu, jer je poligon jednostavniji objekat. ili ipak ide u oba pravca?</html:p>
               </fr:mainmatter>
             </fr:tree>
