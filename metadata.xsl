@@ -89,7 +89,7 @@
   <xsl:template match="f:authors">
     <xsl:if test="f:author or f:contributor">
       <li class="meta-item">
-        <address class="author">
+        <!-- <address class="author">
           <xsl:for-each select="f:author">
             <xsl:apply-templates />
             <xsl:if test="position()!=last()">
@@ -105,7 +105,7 @@
               </xsl:if>
             </xsl:for-each>
           </xsl:if>
-        </address>
+        </address> -->
       </li>
     </xsl:if>
   </xsl:template>
