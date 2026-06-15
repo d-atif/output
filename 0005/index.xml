@@ -180,7 +180,8 @@
             <fr:title text="List of Stuff">List of Stuff</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:ul><html:li><fr:link href="/output/0004/" title="Creation of (co)limits" uri="https://d-atif.github.io/output/0004/" display-uri="0004" type="local">A thought</fr:link></html:li>
+            <html:ul><html:li><fr:link href="/output/0006/" title="Bethe graph tesselation fundamental polygon" uri="https://d-atif.github.io/output/0006/" display-uri="0006" type="local">Bethe Lattices and Discrete Wave Equation</fr:link></html:li>
+  <html:li><fr:link href="/output/0004/" title="Creation of (co)limits" uri="https://d-atif.github.io/output/0004/" display-uri="0004" type="local">A thought</fr:link></html:li>
   <html:li><fr:link href="/output/0005/" title="https://d-atif.github.io/output/0005/" uri="https://d-atif.github.io/output/0005/" display-uri="0005" type="local">Another one</fr:link></html:li>
   <html:li><fr:link href="/output/0002/" title="Where do ODEs come from?" uri="https://d-atif.github.io/output/0002/" display-uri="0002" type="local">ODs come from the algebraic geometr-topology interaction</fr:link></html:li></html:ul>
           </fr:mainmatter>
