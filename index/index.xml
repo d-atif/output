@@ -13,19 +13,9 @@
     <html:p>Welcome to da forest.</html:p>
     <html:p>Who I am: <fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link></html:p>
     <html:p>Some stuff</html:p>
-    <fr:tree show-metadata="false">
-      <fr:frontmatter>
-        <fr:authors />
-        <fr:uri>https://d-atif.github.io/output/list/</fr:uri>
-        <fr:display-uri>list</fr:display-uri>
-        <fr:route>/output/list/</fr:route>
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <html:ul><html:li><fr:link href="/output/test/" title="Creation of (co)limits" uri="https://d-atif.github.io/output/test/" display-uri="test" type="local">A thought</fr:link></html:li>
+    <html:p>What i write and think: <fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:uri>https://d-atif.github.io/output/list/</fr:uri><fr:display-uri>list</fr:display-uri><fr:route>/output/list/</fr:route></fr:frontmatter><fr:mainmatter><html:ul><html:li><fr:link href="/output/test/" title="Creation of (co)limits" uri="https://d-atif.github.io/output/test/" display-uri="test" type="local">A thought</fr:link></html:li>
   <html:li><fr:link href="/output/0001/" title="https://d-atif.github.io/output/0001/" uri="https://d-atif.github.io/output/0001/" display-uri="0001" type="local">Another one</fr:link></html:li>
-  <html:li><fr:link href="/output/difalggeotop/" title="https://d-atif.github.io/output/difalggeotop/" uri="https://d-atif.github.io/output/difalggeotop/" display-uri="difalggeotop" type="local">ODs come from the algebraic geometr-topology interaction</fr:link></html:li></html:ul>
-      </fr:mainmatter>
-    </fr:tree>
+  <html:li><fr:link href="/output/difalggeotop/" title="https://d-atif.github.io/output/difalggeotop/" uri="https://d-atif.github.io/output/difalggeotop/" display-uri="difalggeotop" type="local">ODs come from the algebraic geometr-topology interaction</fr:link></html:li></html:ul></fr:mainmatter></fr:tree></html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
