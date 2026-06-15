@@ -34,7 +34,75 @@
         <fr:authors />
         <fr:title text="Context">Context</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://d-atif.github.io/output/allthestuff/</fr:uri>
+            <fr:display-uri>allthestuff</fr:display-uri>
+            <fr:route>/output/allthestuff/</fr:route>
+            <fr:title text="All the Stuff">All the Stuff</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2023</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://d-atif.github.io/output/test/</fr:uri>
+                <fr:display-uri>test</fr:display-uri>
+                <fr:route>/output/test/</fr:route>
+                <fr:title text="Creation of (co)limits">Creation of (co)limits</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[{\mathcal {C}}\xrightarrow {U}{\mathcal {D}}]]></fr:tex> be a functor and let <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> be a category. The functor <fr:tex display="inline"><![CDATA[U]]></fr:tex> is said to <html:em>create (co)limits of <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex>-figures</html:em> when for any diagram <fr:tex display="inline"><![CDATA[{\mathcal {I}}\xrightarrow {C_\bullet }{\mathcal {C}}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathcal {I}\xrightarrow {C_\bullet }\mathcal {C}\xrightarrow {F}\mathcal {D}]]></fr:tex> has a (co)limit, then <fr:tex display="inline"><![CDATA[C_\bullet ]]></fr:tex> has a (co)limit that is both preserved and reflected by <fr:tex display="inline"><![CDATA[F]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://d-atif.github.io/output/difalggeotop/</fr:uri>
+                <fr:display-uri>difalggeotop</fr:display-uri>
+                <fr:route>/output/difalggeotop/</fr:route>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>See this: https://youtu.be/B0E0q6ICK3c?si=Q-l8l-j4ORr9qRN9&amp;t=957</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>14</fr:day>
+                </fr:date>
+                <fr:uri>https://d-atif.github.io/output/0001/</fr:uri>
+                <fr:display-uri>0001</fr:display-uri>
+                <fr:route>/output/0001/</fr:route>
+              </fr:frontmatter>
+              <fr:mainmatter />
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

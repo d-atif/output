@@ -75,6 +75,9 @@
   <html:li><fr:link href="/output/difalggeotop/" title="https://d-atif.github.io/output/difalggeotop/" uri="https://d-atif.github.io/output/difalggeotop/" display-uri="difalggeotop" type="local">ODs come from the algebraic geometr-topology interaction</fr:link></html:li></html:ul>
               </fr:mainmatter>
             </fr:tree>
+            <html:p>
+              <fr:link href="/output/allthestuff/" title="All the Stuff" uri="https://d-atif.github.io/output/allthestuff/" display-uri="allthestuff" type="local">All the stuff</fr:link>
+            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
