@@ -177,7 +177,7 @@
             <fr:uri>https://d-atif.github.io/output/0003/</fr:uri>
             <fr:display-uri>0003</fr:display-uri>
             <fr:route>/output/0003/</fr:route>
-            <fr:title text="Stuff listed">Stuff listed</fr:title>
+            <fr:title text="List of Stuff">List of Stuff</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:ul><html:li><fr:link href="/output/0004/" title="Creation of (co)limits" uri="https://d-atif.github.io/output/0004/" display-uri="0004" type="local">A thought</fr:link></html:li>
