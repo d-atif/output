@@ -28,19 +28,19 @@
           <fr:month>6</fr:month>
           <fr:day>15</fr:day>
         </fr:date>
-        <fr:uri>https://d-atif.github.io/output/list/</fr:uri>
-        <fr:display-uri>list</fr:display-uri>
-        <fr:route>/output/list/</fr:route>
-        <fr:title text="Some stuff">Some stuff</fr:title>
+        <fr:uri>https://d-atif.github.io/output/0003/</fr:uri>
+        <fr:display-uri>0003</fr:display-uri>
+        <fr:route>/output/0003/</fr:route>
+        <fr:title text="Stuff listed">Stuff listed</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:ul><html:li><fr:link href="/output/test/" title="Creation of (co)limits" uri="https://d-atif.github.io/output/test/" display-uri="test" type="local">A thought</fr:link></html:li>
-  <html:li><fr:link href="/output/0001/" title="https://d-atif.github.io/output/0001/" uri="https://d-atif.github.io/output/0001/" display-uri="0001" type="local">Another one</fr:link></html:li>
-  <html:li><fr:link href="/output/difalggeotop/" title="https://d-atif.github.io/output/difalggeotop/" uri="https://d-atif.github.io/output/difalggeotop/" display-uri="difalggeotop" type="local">ODs come from the algebraic geometr-topology interaction</fr:link></html:li></html:ul>
+        <html:ul><html:li><fr:link href="/output/0004/" title="Creation of (co)limits" uri="https://d-atif.github.io/output/0004/" display-uri="0004" type="local">A thought</fr:link></html:li>
+  <html:li><fr:link href="/output/0005/" title="https://d-atif.github.io/output/0005/" uri="https://d-atif.github.io/output/0005/" display-uri="0005" type="local">Another one</fr:link></html:li>
+  <html:li><fr:link href="/output/0002/" title="Where do ODEs come from?" uri="https://d-atif.github.io/output/0002/" display-uri="0002" type="local">ODs come from the algebraic geometr-topology interaction</fr:link></html:li></html:ul>
       </fr:mainmatter>
     </fr:tree>
     <html:p>
-      <fr:link href="/output/allthestuff/" title="All the Stuff" uri="https://d-atif.github.io/output/allthestuff/" display-uri="allthestuff" type="local">All the stuff</fr:link>
+      <fr:link href="/output/0001/" title="All the Stuff" uri="https://d-atif.github.io/output/0001/" display-uri="0001" type="local">All the stuff</fr:link>
     </html:p>
   </fr:mainmatter>
   <fr:backmatter>
@@ -83,9 +83,9 @@
               <fr:month>6</fr:month>
               <fr:day>15</fr:day>
             </fr:date>
-            <fr:uri>https://d-atif.github.io/output/allthestuff/</fr:uri>
-            <fr:display-uri>allthestuff</fr:display-uri>
-            <fr:route>/output/allthestuff/</fr:route>
+            <fr:uri>https://d-atif.github.io/output/0001/</fr:uri>
+            <fr:display-uri>0001</fr:display-uri>
+            <fr:route>/output/0001/</fr:route>
             <fr:title text="All the Stuff">All the Stuff</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
@@ -101,9 +101,9 @@
                   <fr:month>2</fr:month>
                   <fr:day>11</fr:day>
                 </fr:date>
-                <fr:uri>https://d-atif.github.io/output/test/</fr:uri>
-                <fr:display-uri>test</fr:display-uri>
-                <fr:route>/output/test/</fr:route>
+                <fr:uri>https://d-atif.github.io/output/0004/</fr:uri>
+                <fr:display-uri>0004</fr:display-uri>
+                <fr:route>/output/0004/</fr:route>
                 <fr:title text="Creation of (co)limits">Creation of (co)limits</fr:title>
                 <fr:taxon>Definition</fr:taxon>
               </fr:frontmatter>
@@ -113,10 +113,21 @@
             </fr:tree>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
-                <fr:authors />
-                <fr:uri>https://d-atif.github.io/output/difalggeotop/</fr:uri>
-                <fr:display-uri>difalggeotop</fr:display-uri>
-                <fr:route>/output/difalggeotop/</fr:route>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2023</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://d-atif.github.io/output/0002/</fr:uri>
+                <fr:display-uri>0002</fr:display-uri>
+                <fr:route>/output/0002/</fr:route>
+                <fr:title text="Where do ODEs come from?">Where do ODEs come from?</fr:title>
+                <fr:taxon>Link</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>See this: https://youtu.be/B0E0q6ICK3c?si=Q-l8l-j4ORr9qRN9&amp;t=957</html:p>
@@ -124,15 +135,20 @@
             </fr:tree>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
-                <fr:authors />
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link>
+                  </fr:author>
+                </fr:authors>
                 <fr:date>
                   <fr:year>2026</fr:year>
                   <fr:month>6</fr:month>
                   <fr:day>14</fr:day>
                 </fr:date>
-                <fr:uri>https://d-atif.github.io/output/0001/</fr:uri>
-                <fr:display-uri>0001</fr:display-uri>
-                <fr:route>/output/0001/</fr:route>
+                <fr:uri>https://d-atif.github.io/output/0005/</fr:uri>
+                <fr:display-uri>0005</fr:display-uri>
+                <fr:route>/output/0005/</fr:route>
+                <fr:taxon>Note</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter />
             </fr:tree>
