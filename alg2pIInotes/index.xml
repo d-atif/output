@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/output/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/output/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:uri>https://d-atif.github.io/output/alg2pIInotes/</fr:uri>
+    <fr:display-uri>alg2pIInotes</fr:display-uri>
+    <fr:route>/output/alg2pIInotes/</fr:route>
+    <fr:title text="Algebra 2, Parcijala 2">Algebra 2, Parcijala 2</fr:title>
+    <fr:taxon>Note</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tex display="inline"><![CDATA[\header {Karakterizacija podpolja}]]></fr:tex>
+    <html:p>
+    Fakt: Karakteristika polja je ili 0 ili prost broj.
+
+    glavni rezultat u ovom djelu lekcije je
+
+    <fr:tex display="inline"><![CDATA[\theorem {}]]></fr:tex></html:p>
+    <fr:tex display="inline"><![CDATA[\header {Algebarski elementi polja}]]></fr:tex>
+    <html:p>pricamo o algebarskim brojevima.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
