@@ -7,26 +7,22 @@
         <fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link>
       </fr:author>
     </fr:authors>
-    <fr:uri>https://d-atif.github.io/output/alg2pIInotes/</fr:uri>
-    <fr:display-uri>alg2pIInotes</fr:display-uri>
-    <fr:route>/output/alg2pIInotes/</fr:route>
-    <fr:title text="Algebra 2, Parcijala 2">Algebra 2, Parcijala 2</fr:title>
-    <fr:taxon>Note</fr:taxon>
+    <fr:uri>https://d-atif.github.io/output/adjunctions-for-undergrads/</fr:uri>
+    <fr:display-uri>adjunctions-for-undergrads</fr:display-uri>
+    <fr:route>/output/adjunctions-for-undergrads/</fr:route>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:tex display="inline"><![CDATA[\textbf {1. Karakterizacija podpolja}]]></fr:tex>
     <html:p>
-    poznat fakt od ranije: Karakteristika polja je ili 0 ili prost broj.
-</html:p>
-    <html:p>    glavni rezultat u ovom djelu lekcije je
+    Consider the following examples:
 
-    <html:p><fr:tex display="inline"><![CDATA[\text {Teorem.}]]></fr:tex> Neka <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> polje.
-    <html:ul><html:li>ako <fr:tex display="inline"><![CDATA[\operatorname {char} \mathbb {F} = 0]]></fr:tex>, onda <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> sadrzi polje <fr:tex display="inline"><![CDATA[\mathbb {K}]]></fr:tex> tkd. <fr:tex display="inline"><![CDATA[\mathbb {K} \simeq  \mathbb {Q}]]></fr:tex></html:li>
-        <html:li>ako <fr:tex display="inline"><![CDATA[\operatorname {char} \mathbb {F} = p]]></fr:tex>, onda <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> sadrzi polje <fr:tex display="inline"><![CDATA[\mathbb {K}]]></fr:tex> tkd. <fr:tex display="inline"><![CDATA[\mathbb {K} \simeq  \mathbb {Z}]]></fr:tex></html:li></html:ul></html:p></html:p>
-    <fr:tex display="inline"><![CDATA[\textbf {2. Ekstenzije polja i algebarski elementi polja}]]></fr:tex>
+    - Insert the answer from mse abt subbasis here
+    - Insert Herstein quote abt Jacobson radical here
+    - Insert adjunction of field/ring by an element here (Q[sqrt2] prolly best example)
+    - Insert some definition that's obviously an adjunction here
+</html:p>
     <html:p>
-        sa ekstenzijama polja smo se susretali, npr. <fr:tex display="inline"><![CDATA[\mathbb {Q}[\sqrt  2]]]></fr:tex> je ekstenzija od <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.
-    </html:p>
+    can you see what all these examples have in common?
+</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
