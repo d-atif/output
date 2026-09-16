@@ -12,7 +12,7 @@
     <fr:tree show-metadata="false" numbered="false">
       <fr:frontmatter>
         <fr:authors />
-        <fr:title text="1 Basic Notions">1 Basic Notions</fr:title>
+        <fr:title text="1.1 Basic Notions">1.1 Basic Notions</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
         <html:ul><html:li><fr:link href="https://en.wikipedia.org/wiki/Kolmogorov_spaceThe_Kolmogorov_quotient" type="external">Kolmogorov Quotients</fr:link> are always <fr:tex display="inline"><![CDATA[T_0]]></fr:tex> (or Kolmogorov spaces). Kolmogorov spaces are a reflective subcategory of topological spaces, the Kolmogorov quotient is the reflector.</html:li>
@@ -23,7 +23,7 @@
     <fr:tree show-metadata="false" numbered="false">
       <fr:frontmatter>
         <fr:authors />
-        <fr:title text=" Subspaces. Quotient Spaces"> Subspaces. Quotient Spaces</fr:title>
+        <fr:title text="1.2 Subspaces. Quotient Spaces">1.2 Subspaces. Quotient Spaces</fr:title>
       </fr:frontmatter>
       <fr:mainmatter />
     </fr:tree>
@@ -61,7 +61,7 @@
             <fr:taxon>Note</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:tree show-metadata="false">
+            <fr:tree show-metadata="false" numbered="false">
               <fr:frontmatter>
                 <fr:authors />
                 <fr:uri>https://d-atif.github.io/output/ch1-top-spaces/</fr:uri>
@@ -73,7 +73,7 @@
                 <fr:tree show-metadata="false" numbered="false">
                   <fr:frontmatter>
                     <fr:authors />
-                    <fr:title text="1 Basic Notions">1 Basic Notions</fr:title>
+                    <fr:title text="1.1 Basic Notions">1.1 Basic Notions</fr:title>
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:ul><html:li><fr:link href="https://en.wikipedia.org/wiki/Kolmogorov_spaceThe_Kolmogorov_quotient" type="external">Kolmogorov Quotients</fr:link> are always <fr:tex display="inline"><![CDATA[T_0]]></fr:tex> (or Kolmogorov spaces). Kolmogorov spaces are a reflective subcategory of topological spaces, the Kolmogorov quotient is the reflector.</html:li>
@@ -84,7 +84,7 @@
                 <fr:tree show-metadata="false" numbered="false">
                   <fr:frontmatter>
                     <fr:authors />
-                    <fr:title text=" Subspaces. Quotient Spaces"> Subspaces. Quotient Spaces</fr:title>
+                    <fr:title text="1.2 Subspaces. Quotient Spaces">1.2 Subspaces. Quotient Spaces</fr:title>
                   </fr:frontmatter>
                   <fr:mainmatter />
                 </fr:tree>
