@@ -9,9 +9,17 @@
     <fr:title text="Chapter 1: Topological Spaces">Chapter 1: Topological Spaces</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
-    <html:ul>
-      <html:li>Metrizable spaces have countable neighbourhood bases of points: Take the <fr:tex display="inline"><![CDATA[U_{\varepsilon } (x)]]></fr:tex> with rational <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex>.</html:li>
-    </html:ul>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="1.1 Basic Notions">1.1 Basic Notions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:ul><html:li><fr:link href="https://en.wikipedia.org/wiki/Kolmogorov_spaceThe_Kolmogorov_quotient" type="external">Kolmogorov Quotients</fr:link> are always <fr:tex display="inline"><![CDATA[T_0]]></fr:tex> (or Kolmogorov spaces). Kolmogorov spaces are a reflective subcategory of topological spaces, the Kolmogorov quotient is the reflector.</html:li>
+        <html:li>Metrizable spaces have countable neighbourhood bases of points: Take the <fr:tex display="inline"><![CDATA[U_{\varepsilon } (x)]]></fr:tex> with rational <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex>.</html:li>
+        <html:li>It has become clear to me now that <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is some kind of ruler and a reference structure for much of these developments. Perhaps just as <fr:tex display="inline"><![CDATA[\N ]]></fr:tex> was for <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, through <fr:tex display="inline"><![CDATA[\Z ]]></fr:tex> and further <fr:tex display="inline"><![CDATA[\Q ]]></fr:tex>. I'm stating a simple fact here, e.g., the domain of the metric is <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, that's all. I never deeply internalised that the domain for a metric can't be anything else. Which leads to the natural question, are there such "metrics", which have something else for their domain, or, have an abstract object <fr:tex display="inline"><![CDATA[X]]></fr:tex>, which must satisfy some properties, and so on.</html:li></html:ul>
+      </fr:mainmatter>
+    </fr:tree>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -55,9 +63,17 @@
                 <fr:title text="Chapter 1: Topological Spaces">Chapter 1: Topological Spaces</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:ul>
-                  <html:li>Metrizable spaces have countable neighbourhood bases of points: Take the <fr:tex display="inline"><![CDATA[U_{\varepsilon } (x)]]></fr:tex> with rational <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex>.</html:li>
-                </html:ul>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="1.1 Basic Notions">1.1 Basic Notions</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:ul><html:li><fr:link href="https://en.wikipedia.org/wiki/Kolmogorov_spaceThe_Kolmogorov_quotient" type="external">Kolmogorov Quotients</fr:link> are always <fr:tex display="inline"><![CDATA[T_0]]></fr:tex> (or Kolmogorov spaces). Kolmogorov spaces are a reflective subcategory of topological spaces, the Kolmogorov quotient is the reflector.</html:li>
+        <html:li>Metrizable spaces have countable neighbourhood bases of points: Take the <fr:tex display="inline"><![CDATA[U_{\varepsilon } (x)]]></fr:tex> with rational <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex>.</html:li>
+        <html:li>It has become clear to me now that <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is some kind of ruler and a reference structure for much of these developments. Perhaps just as <fr:tex display="inline"><![CDATA[\N ]]></fr:tex> was for <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, through <fr:tex display="inline"><![CDATA[\Z ]]></fr:tex> and further <fr:tex display="inline"><![CDATA[\Q ]]></fr:tex>. I'm stating a simple fact here, e.g., the domain of the metric is <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, that's all. I never deeply internalised that the domain for a metric can't be anything else. Which leads to the natural question, are there such "metrics", which have something else for their domain, or, have an abstract object <fr:tex display="inline"><![CDATA[X]]></fr:tex>, which must satisfy some properties, and so on.</html:li></html:ul>
+                  </fr:mainmatter>
+                </fr:tree>
               </fr:mainmatter>
             </fr:tree>
           </fr:mainmatter>
