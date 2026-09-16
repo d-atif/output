@@ -62,6 +62,41 @@
                 </fr:authors>
                 <fr:date>
                   <fr:year>2026</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>https://d-atif.github.io/output/0007/</fr:uri>
+                <fr:display-uri>0007</fr:display-uri>
+                <fr:route>/output/0007/</fr:route>
+                <fr:title text="Random notes on Tammo Tom Dieck's Algebraic Topology">Random notes on Tammo Tom Dieck's Algebraic Topology</fr:title>
+                <fr:taxon>Note</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:uri>https://d-atif.github.io/output/ch1-top-spaces/</fr:uri>
+                    <fr:display-uri>ch1-top-spaces</fr:display-uri>
+                    <fr:route>/output/ch1-top-spaces/</fr:route>
+                    <fr:title text="Chapter 1: Topological Spaces">Chapter 1: Topological Spaces</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:ul>
+                      <html:li>Metrizable spaces have countable neighbourhood bases of points: Take the <fr:tex display="inline"><![CDATA[U_{\varepsilon } (x)]]></fr:tex> with rational <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex>.</html:li>
+                    </html:ul>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2026</fr:year>
                   <fr:month>7</fr:month>
                   <fr:day>3</fr:day>
                 </fr:date>
@@ -210,7 +245,8 @@
             <fr:title text="List of Stuff">List of Stuff</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:ul><html:li><fr:tree show-metadata="false" expanded="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>7</fr:month><fr:day>3</fr:day></fr:date><fr:uri>https://d-atif.github.io/output/0006/</fr:uri><fr:display-uri>0006</fr:display-uri><fr:route>/output/0006/</fr:route><fr:title text="Intro to Galois theory, part 1: Algebraic (Field) Extensions">Intro to Galois theory, part 1: Algebraic (Field) Extensions</fr:title><fr:taxon>Note</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+            <html:ul><html:li><fr:tree show-metadata="false" expanded="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>9</fr:month><fr:day>16</fr:day></fr:date><fr:uri>https://d-atif.github.io/output/0007/</fr:uri><fr:display-uri>0007</fr:display-uri><fr:route>/output/0007/</fr:route><fr:title text="Random notes on Tammo Tom Dieck's Algebraic Topology">Random notes on Tammo Tom Dieck's Algebraic Topology</fr:title><fr:taxon>Note</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:uri>https://d-atif.github.io/output/ch1-top-spaces/</fr:uri><fr:display-uri>ch1-top-spaces</fr:display-uri><fr:route>/output/ch1-top-spaces/</fr:route><fr:title text="Chapter 1: Topological Spaces">Chapter 1: Topological Spaces</fr:title></fr:frontmatter><fr:mainmatter><html:ul><html:li>Metrizable spaces have countable neighbourhood bases of points: Take the <fr:tex display="inline"><![CDATA[U_{\varepsilon } (x)]]></fr:tex> with rational <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex>.</html:li></html:ul></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></html:li>
+  <html:li><fr:tree show-metadata="false" expanded="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>7</fr:month><fr:day>3</fr:day></fr:date><fr:uri>https://d-atif.github.io/output/0006/</fr:uri><fr:display-uri>0006</fr:display-uri><fr:route>/output/0006/</fr:route><fr:title text="Intro to Galois theory, part 1: Algebraic (Field) Extensions">Intro to Galois theory, part 1: Algebraic (Field) Extensions</fr:title><fr:taxon>Note</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
     let me try and summarize the section Algebraic Extensions from Malik's fundamentals of abstract algebra. ill first outline the big picture: what role this section has in galois theory, then ill focus on the small picture: how do we build (algebraic) extensions of fields.
 </html:p><html:p>
     so we are still at the low stages of the theory building that will culminate in galois theory.
