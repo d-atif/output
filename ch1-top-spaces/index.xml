@@ -6,6 +6,7 @@
     <fr:uri>https://d-atif.github.io/output/ch1-top-spaces/</fr:uri>
     <fr:display-uri>ch1-top-spaces</fr:display-uri>
     <fr:route>/output/ch1-top-spaces/</fr:route>
+    <fr:title text="Chapter 1: Topological Spaces">Chapter 1: Topological Spaces</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:ul>
@@ -51,6 +52,7 @@
                 <fr:uri>https://d-atif.github.io/output/ch1-top-spaces/</fr:uri>
                 <fr:display-uri>ch1-top-spaces</fr:display-uri>
                 <fr:route>/output/ch1-top-spaces/</fr:route>
+                <fr:title text="Chapter 1: Topological Spaces">Chapter 1: Topological Spaces</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:ul>
