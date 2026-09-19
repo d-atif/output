@@ -27,7 +27,7 @@
       </fr:frontmatter>
       <fr:mainmatter>
         <html:ul>
-          <html:li>This subsection could be efficiently summarised (mod embeddings talk) with the following exercise and its solution: Prove <fr:tex display="inline"><![CDATA[\mathbb {R} / \mathbb {Z}]]></fr:tex> is homeomorphic to  <fr:tex display="inline"><![CDATA[S^1]]></fr:tex>. To solve it you need quotient mapping characterisation, you get to use the Universal Property of quotient maps, you get a hint of the algebra-topology interplay. (Also, you remind yourself of the open mapping theorem from complex analysis.)</html:li>
+          <html:li>This subsection could be efficiently summarised (mod embeddings talk) with this problem: Prove <fr:tex display="inline"><![CDATA[\mathbb {R} / \mathbb {Z}]]></fr:tex> is homeomorphic to  <fr:tex display="inline"><![CDATA[S^1]]></fr:tex>. To solve it you need quotient mapping characterisation, you get to use the Universal Property of quotient maps, you get a hint of the algebra-topology interplay. (Also, you remind yourself of the open mapping theorem from complex analysis.)</html:li>
         </html:ul>
       </fr:mainmatter>
     </fr:tree>
@@ -92,7 +92,7 @@
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:ul>
-                      <html:li>This subsection could be efficiently summarised (mod embeddings talk) with the following exercise and its solution: Prove <fr:tex display="inline"><![CDATA[\mathbb {R} / \mathbb {Z}]]></fr:tex> is homeomorphic to  <fr:tex display="inline"><![CDATA[S^1]]></fr:tex>. To solve it you need quotient mapping characterisation, you get to use the Universal Property of quotient maps, you get a hint of the algebra-topology interplay. (Also, you remind yourself of the open mapping theorem from complex analysis.)</html:li>
+                      <html:li>This subsection could be efficiently summarised (mod embeddings talk) with this problem: Prove <fr:tex display="inline"><![CDATA[\mathbb {R} / \mathbb {Z}]]></fr:tex> is homeomorphic to  <fr:tex display="inline"><![CDATA[S^1]]></fr:tex>. To solve it you need quotient mapping characterisation, you get to use the Universal Property of quotient maps, you get a hint of the algebra-topology interplay. (Also, you remind yourself of the open mapping theorem from complex analysis.)</html:li>
                     </html:ul>
                   </fr:mainmatter>
                 </fr:tree>
