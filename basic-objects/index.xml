@@ -33,7 +33,7 @@
         We say that a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is <html:em>simply connected</html:em> if the set <fr:tex display="inline"><![CDATA[\mathbb {C}\setminus  U]]></fr:tex> has no bounded components.
     </html:p>
         <html:p>
-        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  C \setminus  U]]></fr:tex> is connected.
+        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  \mathbb {C} \setminus  U]]></fr:tex> is connected.
     </html:p>
       </fr:mainmatter>
     </fr:tree>
@@ -165,7 +165,7 @@
         We say that a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is <html:em>simply connected</html:em> if the set <fr:tex display="inline"><![CDATA[\mathbb {C}\setminus  U]]></fr:tex> has no bounded components.
     </html:p>
                     <html:p>
-        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  C \setminus  U]]></fr:tex> is connected.
+        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  \mathbb {C} \setminus  U]]></fr:tex> is connected.
     </html:p>
                   </fr:mainmatter>
                 </fr:tree>

@@ -128,7 +128,7 @@
         We say that a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is <html:em>simply connected</html:em> if the set <fr:tex display="inline"><![CDATA[\mathbb {C}\setminus  U]]></fr:tex> has no bounded components.
     </html:p>
                         <html:p>
-        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  C \setminus  U]]></fr:tex> is connected.
+        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  \mathbb {C} \setminus  U]]></fr:tex> is connected.
     </html:p>
                       </fr:mainmatter>
                     </fr:tree>
@@ -399,7 +399,7 @@
   </html:p><html:p>Most results in complex analysis assume that the underlying set is a domain, so this is a key notion.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:title text="Simply connected domain">Simply connected domain</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         We say that a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is <html:em>simply connected</html:em> if the set <fr:tex display="inline"><![CDATA[\mathbb {C}\setminus  U]]></fr:tex> has no bounded components.
     </html:p><html:p>
-        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  C \setminus  U]]></fr:tex> is connected.
+        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  \mathbb {C} \setminus  U]]></fr:tex> is connected.
     </html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:title text="Curve">Curve</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         A continuous curve in the complex plane is the image of a continuous complex mapping <fr:tex display="inline"><![CDATA[\gamma : [\alpha , \beta ] \to  \mathbb {C}]]></fr:tex>. It can be described with the equation: <fr:tex display="block"><![CDATA[\gamma (t) = x(t) + iy(t), \quad  t \in  [\alpha , \beta ]]]></fr:tex> where <fr:tex display="inline"><![CDATA[x, y]]></fr:tex> are continuous real functions of <fr:tex display="inline"><![CDATA[t \in  [\alpha , \beta ]]]></fr:tex>.
     </html:p><html:p>
