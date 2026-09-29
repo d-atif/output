@@ -30,10 +30,56 @@
       <fr:mainmatter>
         <html:p>Let <fr:tex display="inline"><![CDATA[f(z) = u(x,y) + iv(x,y)]]></fr:tex>, for <fr:tex display="inline"><![CDATA[x+iy = z \in  D\subseteq  \mathbb {C}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[D]]></fr:tex> is open; let also <fr:tex display="inline"><![CDATA[(x_0,y_0) = z_0 \in  D]]></fr:tex>.</html:p>
         <html:ol><html:li>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, then the first order partial derivatives of functions <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> in point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> exist and they satisfy the equations <fr:tex display="block"><![CDATA[u'_x = v'_y,]]></fr:tex>
-        <fr:tex display="block"><![CDATA[u'_y = - v'_x.]]></fr:tex> If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is analytical in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> and <fr:tex display="inline"><![CDATA[f'(z_0)]]></fr:tex> is continuous, then the partial derivatives of <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> wrt. to <fr:tex display="inline"><![CDATA[x,y]]></fr:tex> are continuous.</html:li>
+        <fr:tex display="block"><![CDATA[u'_y = - v'_x.]]></fr:tex> If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is analytic in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> and <fr:tex display="inline"><![CDATA[f'(z_0)]]></fr:tex> is continuous, then the partial derivatives of <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> wrt. to <fr:tex display="inline"><![CDATA[x,y]]></fr:tex> are continuous.</html:li>
         <html:li>Suppose <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> have first order partial derivatives in some neighbourhood of <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, and suppose those are continuous funcitons in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, s.t. the PDEs (C-R equations) above hold. Then function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>.</html:li></html:ol>
         <html:p>Immediate corollary: If <fr:tex display="inline"><![CDATA[f]]></fr:tex> doesn't satisfy C-R equations in <fr:tex display="inline"><![CDATA[z_0 = (x_0, y_0)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is not differentiable in that point.</html:p>
         <html:p>A geometric interpretation of C-R equations tells us that the gradients of multivariable functions <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> are orthogonal, if they satisfy C-R.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" toc="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Harmonic function">Harmonic function</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>A function <fr:tex display="inline"><![CDATA[u]]></fr:tex> of two real variables is <html:em>harmonic</html:em> if it has partial derivatives of first and second order, which are continuous functions, and if it satisfies the Laplace equation in <fr:tex display="inline"><![CDATA[\R ^2]]></fr:tex>: <fr:tex display="block"><![CDATA[\frac {\partial ^2 u}{\partial  x^2} + \frac {\partial ^2 u}{\partial  y^2} = 0.]]></fr:tex></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" toc="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Summands of holomorphic functions are harmonic">Summands of holomorphic functions are harmonic</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        If the function <fr:tex display="inline"><![CDATA[f = u+iv]]></fr:tex> is holomorphic on an open set <fr:tex display="inline"><![CDATA[D]]></fr:tex>, then the functions <fr:tex display="inline"><![CDATA[u]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex> are harmonic. (Proof is immediate from the C-R theorem.)
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" toc="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Harmonic conjugate">Harmonic conjugate</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        If <fr:tex display="inline"><![CDATA[u]]></fr:tex> is harmonic on domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex> is harmonic s.t. <fr:tex display="inline"><![CDATA[u+iv]]></fr:tex> is holomorphic, then we say that <fr:tex display="inline"><![CDATA[v]]></fr:tex> is the <html:em>harmonic conjugate</html:em> of <fr:tex display="inline"><![CDATA[u]]></fr:tex>. (<fr:tex display="inline"><![CDATA[v]]></fr:tex> is unique up to an additive constant; the next theorem gives us information about existence.)
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" toc="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Existence of harmonic conjugate">Existence of harmonic conjugate</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        If <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a simply connected domain, and <fr:tex display="inline"><![CDATA[u]]></fr:tex> harmonic on <fr:tex display="inline"><![CDATA[D]]></fr:tex>, then there exists a(the) harmonic conjugate of <fr:tex display="inline"><![CDATA[u]]></fr:tex>.
+    </html:p>
       </fr:mainmatter>
     </fr:tree>
   </fr:mainmatter>
@@ -246,10 +292,56 @@
                   <fr:mainmatter>
                     <html:p>Let <fr:tex display="inline"><![CDATA[f(z) = u(x,y) + iv(x,y)]]></fr:tex>, for <fr:tex display="inline"><![CDATA[x+iy = z \in  D\subseteq  \mathbb {C}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[D]]></fr:tex> is open; let also <fr:tex display="inline"><![CDATA[(x_0,y_0) = z_0 \in  D]]></fr:tex>.</html:p>
                     <html:ol><html:li>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, then the first order partial derivatives of functions <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> in point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> exist and they satisfy the equations <fr:tex display="block"><![CDATA[u'_x = v'_y,]]></fr:tex>
-        <fr:tex display="block"><![CDATA[u'_y = - v'_x.]]></fr:tex> If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is analytical in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> and <fr:tex display="inline"><![CDATA[f'(z_0)]]></fr:tex> is continuous, then the partial derivatives of <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> wrt. to <fr:tex display="inline"><![CDATA[x,y]]></fr:tex> are continuous.</html:li>
+        <fr:tex display="block"><![CDATA[u'_y = - v'_x.]]></fr:tex> If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is analytic in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> and <fr:tex display="inline"><![CDATA[f'(z_0)]]></fr:tex> is continuous, then the partial derivatives of <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> wrt. to <fr:tex display="inline"><![CDATA[x,y]]></fr:tex> are continuous.</html:li>
         <html:li>Suppose <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> have first order partial derivatives in some neighbourhood of <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, and suppose those are continuous funcitons in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, s.t. the PDEs (C-R equations) above hold. Then function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>.</html:li></html:ol>
                     <html:p>Immediate corollary: If <fr:tex display="inline"><![CDATA[f]]></fr:tex> doesn't satisfy C-R equations in <fr:tex display="inline"><![CDATA[z_0 = (x_0, y_0)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is not differentiable in that point.</html:p>
                     <html:p>A geometric interpretation of C-R equations tells us that the gradients of multivariable functions <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> are orthogonal, if they satisfy C-R.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Harmonic function">Harmonic function</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A function <fr:tex display="inline"><![CDATA[u]]></fr:tex> of two real variables is <html:em>harmonic</html:em> if it has partial derivatives of first and second order, which are continuous functions, and if it satisfies the Laplace equation in <fr:tex display="inline"><![CDATA[\R ^2]]></fr:tex>: <fr:tex display="block"><![CDATA[\frac {\partial ^2 u}{\partial  x^2} + \frac {\partial ^2 u}{\partial  y^2} = 0.]]></fr:tex></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Summands of holomorphic functions are harmonic">Summands of holomorphic functions are harmonic</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        If the function <fr:tex display="inline"><![CDATA[f = u+iv]]></fr:tex> is holomorphic on an open set <fr:tex display="inline"><![CDATA[D]]></fr:tex>, then the functions <fr:tex display="inline"><![CDATA[u]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex> are harmonic. (Proof is immediate from the C-R theorem.)
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Harmonic conjugate">Harmonic conjugate</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        If <fr:tex display="inline"><![CDATA[u]]></fr:tex> is harmonic on domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex> is harmonic s.t. <fr:tex display="inline"><![CDATA[u+iv]]></fr:tex> is holomorphic, then we say that <fr:tex display="inline"><![CDATA[v]]></fr:tex> is the <html:em>harmonic conjugate</html:em> of <fr:tex display="inline"><![CDATA[u]]></fr:tex>. (<fr:tex display="inline"><![CDATA[v]]></fr:tex> is unique up to an additive constant; the next theorem gives us information about existence.)
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Existence of harmonic conjugate">Existence of harmonic conjugate</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        If <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a simply connected domain, and <fr:tex display="inline"><![CDATA[u]]></fr:tex> harmonic on <fr:tex display="inline"><![CDATA[D]]></fr:tex>, then there exists a(the) harmonic conjugate of <fr:tex display="inline"><![CDATA[u]]></fr:tex>.
+    </html:p>
                   </fr:mainmatter>
                 </fr:tree>
               </fr:mainmatter>
