@@ -9,7 +9,7 @@
     <fr:title text="Holomorphic functions">Holomorphic functions</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Analytic&amp;Holomorphic functions">Analytic&amp;Holomorphic functions</fr:title>
@@ -21,7 +21,7 @@
         <html:p>Function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <html:em>holomorphic</html:em> on a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex>, if it's differentiable (analytic) in a neighbourhood of every point of the domain <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</html:p>
       </fr:mainmatter>
     </fr:tree>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Differentiability via Cauchy-Riemann eqs">Differentiability via Cauchy-Riemann eqs</fr:title>
@@ -32,7 +32,7 @@
         <html:ol><html:li>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, then the first order partial derivatives of functions <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> in point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> exist and they satisfy the equations <fr:tex display="block"><![CDATA[u'_x = v'_y,]]></fr:tex>
         <fr:tex display="block"><![CDATA[u'_y = - v'_x.]]></fr:tex> If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is analytical in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> and <fr:tex display="inline"><![CDATA[f'(z_0)]]></fr:tex> is continuous, then the partial derivatives of <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> wrt. to <fr:tex display="inline"><![CDATA[x,y]]></fr:tex> are continuous.</html:li>
         <html:li>Suppose <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> have first order partial derivatives in some neighbourhood of <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, and suppose those are continuous funcitons in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, s.t. the PDEs (C-R equations) above hold. Then function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>.</html:li></html:ol>
-        <html:p>Obvious consequence: If <fr:tex display="inline"><![CDATA[f]]></fr:tex> doesn't satisfy C-R equations in <fr:tex display="inline"><![CDATA[z_0 = (x_0, y_0)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is not differentiable in that point.</html:p>
+        <html:p>Immediate corollary: If <fr:tex display="inline"><![CDATA[f]]></fr:tex> doesn't satisfy C-R equations in <fr:tex display="inline"><![CDATA[z_0 = (x_0, y_0)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is not differentiable in that point.</html:p>
         <html:p>A geometric interpretation of C-R equations tells us that the gradients of multivariable functions <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> are orthogonal, if they satisfy C-R.</html:p>
       </fr:mainmatter>
     </fr:tree>
@@ -225,7 +225,7 @@
                 <fr:title text="Holomorphic functions">Holomorphic functions</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Analytic&amp;Holomorphic functions">Analytic&amp;Holomorphic functions</fr:title>
@@ -237,7 +237,7 @@
                     <html:p>Function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <html:em>holomorphic</html:em> on a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex>, if it's differentiable (analytic) in a neighbourhood of every point of the domain <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Differentiability via Cauchy-Riemann eqs">Differentiability via Cauchy-Riemann eqs</fr:title>
@@ -248,7 +248,7 @@
                     <html:ol><html:li>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, then the first order partial derivatives of functions <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> in point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> exist and they satisfy the equations <fr:tex display="block"><![CDATA[u'_x = v'_y,]]></fr:tex>
         <fr:tex display="block"><![CDATA[u'_y = - v'_x.]]></fr:tex> If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is analytical in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> and <fr:tex display="inline"><![CDATA[f'(z_0)]]></fr:tex> is continuous, then the partial derivatives of <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> wrt. to <fr:tex display="inline"><![CDATA[x,y]]></fr:tex> are continuous.</html:li>
         <html:li>Suppose <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> have first order partial derivatives in some neighbourhood of <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, and suppose those are continuous funcitons in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, s.t. the PDEs (C-R equations) above hold. Then function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>.</html:li></html:ol>
-                    <html:p>Obvious consequence: If <fr:tex display="inline"><![CDATA[f]]></fr:tex> doesn't satisfy C-R equations in <fr:tex display="inline"><![CDATA[z_0 = (x_0, y_0)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is not differentiable in that point.</html:p>
+                    <html:p>Immediate corollary: If <fr:tex display="inline"><![CDATA[f]]></fr:tex> doesn't satisfy C-R equations in <fr:tex display="inline"><![CDATA[z_0 = (x_0, y_0)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is not differentiable in that point.</html:p>
                     <html:p>A geometric interpretation of C-R equations tells us that the gradients of multivariable functions <fr:tex display="inline"><![CDATA[u,v]]></fr:tex> are orthogonal, if they satisfy C-R.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
