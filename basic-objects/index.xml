@@ -9,7 +9,7 @@
     <fr:title text="Domains&amp;Curves">Domains&amp;Curves</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Domain &amp; Simply connected domain">Domain &amp; Simply connected domain</fr:title>
@@ -30,7 +30,7 @@
   </html:p>
       </fr:mainmatter>
     </fr:tree>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Curve">Curve</fr:title>
@@ -45,7 +45,7 @@
     </html:p>
       </fr:mainmatter>
     </fr:tree>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Jordan (simple) curve">Jordan (simple) curve</fr:title>
@@ -57,7 +57,7 @@
     </html:p>
       </fr:mainmatter>
     </fr:tree>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Smooth curves and Contours">Smooth curves and Contours</fr:title>
@@ -73,7 +73,7 @@
       </fr:mainmatter>
     </fr:tree>
     <html:p>Here are some key results regarding these basic notions.</html:p>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:taxon>Theorem</fr:taxon>
@@ -82,7 +82,7 @@
         <html:p>If <fr:tex display="inline"><![CDATA[K \subset  \mathbb {C}]]></fr:tex> is compact, then <fr:tex display="inline"><![CDATA[\mathbb {C} \setminus  K]]></fr:tex> has exactly one unbounded component.</html:p>
       </fr:mainmatter>
     </fr:tree>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Simply connected domain characterization">Simply connected domain characterization</fr:title>
@@ -92,7 +92,7 @@
         <html:p>A domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline {\mathbb {C}} \setminus  U]]></fr:tex> is connected.</html:p>
       </fr:mainmatter>
     </fr:tree>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Open&amp;convex implies simply connected">Open&amp;convex implies simply connected</fr:title>
@@ -102,7 +102,7 @@
         <html:p>Every open convex subset of <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> is a simply connected domain.</html:p>
       </fr:mainmatter>
     </fr:tree>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Jordan theorem">Jordan theorem</fr:title>
@@ -112,7 +112,7 @@
         <html:p>Every simple closed curve <fr:tex display="inline"><![CDATA[\gamma \subset \mathbb {C}]]></fr:tex> divides <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> in two disjoint domains, of which one is bounded and the other unbounded; <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of both those domains.</html:p>
       </fr:mainmatter>
     </fr:tree>
-    <fr:tree show-metadata="false">
+    <fr:tree show-metadata="false" toc="false">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Curve approximation">Curve approximation</fr:title>
@@ -167,7 +167,7 @@
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-    The set of complex numbers <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> is not compact on its own, but we can compactify it (make it compact), just like we can do so with the real line <fr:tex display="inline"><![CDATA[\R ]]></fr:tex>, which is also not compact on its own. 
+    The set of complex numbers <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> is not compact, but we can compactify it, just like we can do so with the real line <fr:tex display="inline"><![CDATA[\R ]]></fr:tex> (which is also not compact). 
 </html:p>
                 <html:p>
     One way to compactify <fr:tex display="inline"><![CDATA[\R ]]></fr:tex> is to add to it a point at infinity and obtain the set <fr:tex display="inline"><![CDATA[\overline {\R } = \R  \cup  \{\infty \}]]></fr:tex> -- this is called the one-point compactification (distinguishing between <fr:tex display="inline"><![CDATA[\pm  \infty ]]></fr:tex> yields the so called two-point compactification). Turns out, <fr:tex display="inline"><![CDATA[\overline  \R ]]></fr:tex> is homeomorphic to a circle in the Euclidean plane, thus, the unit circle is a nice tangible model of <fr:tex display="inline"><![CDATA[\overline  \R ]]></fr:tex>. If we put a circle on top of the real line, and let it touch the line at <fr:tex display="inline"><![CDATA[0]]></fr:tex>, and if we stereographically project (in 2D sense) all the points of the circle onto the line, we can get a 1-1 correspondence between all the points of the circle and the real line, except for one: the antipodal point of <fr:tex display="inline"><![CDATA[0]]></fr:tex>, which we call the north pole; for this <fr:tex display="inline"><![CDATA[\R ]]></fr:tex> won't do, but <fr:tex display="inline"><![CDATA[\overline  \R ]]></fr:tex> will.
@@ -187,7 +187,7 @@
                 <fr:title text="Domains&amp;Curves">Domains&amp;Curves</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Domain &amp; Simply connected domain">Domain &amp; Simply connected domain</fr:title>
@@ -208,7 +208,7 @@
   </html:p>
                   </fr:mainmatter>
                 </fr:tree>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Curve">Curve</fr:title>
@@ -223,7 +223,7 @@
     </html:p>
                   </fr:mainmatter>
                 </fr:tree>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Jordan (simple) curve">Jordan (simple) curve</fr:title>
@@ -235,7 +235,7 @@
     </html:p>
                   </fr:mainmatter>
                 </fr:tree>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Smooth curves and Contours">Smooth curves and Contours</fr:title>
@@ -251,7 +251,7 @@
                   </fr:mainmatter>
                 </fr:tree>
                 <html:p>Here are some key results regarding these basic notions.</html:p>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:taxon>Theorem</fr:taxon>
@@ -260,7 +260,7 @@
                     <html:p>If <fr:tex display="inline"><![CDATA[K \subset  \mathbb {C}]]></fr:tex> is compact, then <fr:tex display="inline"><![CDATA[\mathbb {C} \setminus  K]]></fr:tex> has exactly one unbounded component.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Simply connected domain characterization">Simply connected domain characterization</fr:title>
@@ -270,7 +270,7 @@
                     <html:p>A domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline {\mathbb {C}} \setminus  U]]></fr:tex> is connected.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Open&amp;convex implies simply connected">Open&amp;convex implies simply connected</fr:title>
@@ -280,7 +280,7 @@
                     <html:p>Every open convex subset of <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> is a simply connected domain.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Jordan theorem">Jordan theorem</fr:title>
@@ -290,7 +290,7 @@
                     <html:p>Every simple closed curve <fr:tex display="inline"><![CDATA[\gamma \subset \mathbb {C}]]></fr:tex> divides <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> in two disjoint domains, of which one is bounded and the other unbounded; <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of both those domains.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
-                <fr:tree show-metadata="false">
+                <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
                     <fr:title text="Curve approximation">Curve approximation</fr:title>
