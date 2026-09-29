@@ -6,35 +6,28 @@
     <fr:uri>https://d-atif.github.io/output/basic-objects/</fr:uri>
     <fr:display-uri>basic-objects</fr:display-uri>
     <fr:route>/output/basic-objects/</fr:route>
-    <fr:title text="Domains, curve, Jordan curves">Domains, curve, Jordan curves</fr:title>
+    <fr:title text="Domains&amp;Curves">Domains&amp;Curves</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:tree show-metadata="false">
       <fr:frontmatter>
         <fr:authors />
-        <fr:title text="Domain">Domain</fr:title>
+        <fr:title text="Domain &amp; Simply connected domain">Domain &amp; Simply connected domain</fr:title>
         <fr:taxon>Definition</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
         <html:p>
     A set <fr:tex display="inline"><![CDATA[D \subseteq  \mathbb {C}]]></fr:tex> that is both open and connected is called a <html:em>domain</html:em>. 
   </html:p>
-        <html:p>Most results in complex analysis assume that the underlying set is a domain, so this is a key notion.</html:p>
-      </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false">
-      <fr:frontmatter>
-        <fr:authors />
-        <fr:title text="Simply connected domain">Simply connected domain</fr:title>
-        <fr:taxon>Definition</fr:taxon>
-      </fr:frontmatter>
-      <fr:mainmatter>
         <html:p>
-        We say that a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is <html:em>simply connected</html:em> if the set <fr:tex display="inline"><![CDATA[\mathbb {C}\setminus  U]]></fr:tex> has no bounded components.
+     We say that a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is <html:em>simply connected</html:em> if the set <fr:tex display="inline"><![CDATA[\mathbb {C}\setminus  U]]></fr:tex> has no bounded components. In other words, it's a domain with no holes.
     </html:p>
         <html:p>
-        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline {\mathbb {C}} \setminus  U]]></fr:tex> is connected.
+     A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline {\mathbb {C}}  \setminus  U]]></fr:tex> is connected.
     </html:p>
+        <html:p>
+    A domain that's not simply connected is a <html:em>multiply connected</html:em> domain; i.e. it has holes.
+  </html:p>
       </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false">
@@ -77,6 +70,55 @@
         <html:p>
         A <html:em>piecewise smooth curve</html:em> is a curve that is made of finitely many smooth curves. More idiomatically, we call such a curve a <html:em>contour</html:em>.
     </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:p>Here are some key results regarding these basic notions.</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>If <fr:tex display="inline"><![CDATA[K \subset  \mathbb {C}]]></fr:tex> is compact, then <fr:tex display="inline"><![CDATA[\mathbb {C} \setminus  K]]></fr:tex> has exactly one unbounded component.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>A domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  \mathbb {C} \setminus  U]]></fr:tex> is connected.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>Every open convex subset of <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> is a simply connected domain.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Jordan theorem">Jordan theorem</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>Every simple closed curve <fr:tex display="inline"><![CDATA[\gamma \subset \mathbb {C}]]></fr:tex> divides <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> in two disjoint domains, of which one is bounded and the other unbounded; <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of both those domains.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Jordan theorem">Jordan theorem</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>For a curve <fr:tex display="inline"><![CDATA[\gamma : I \to  \mathbb {C}]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there always exists a piecewise linear curve <fr:tex display="inline"><![CDATA[\tilde  \gamma ]]></fr:tex> s.t. d(\gamma ,\tilde  \gamma )&lt;\varepsilon .</html:p>
+        <html:p>In other words, we can approximate every curve with a piecewise linear curve to an arbitrary precision.</html:p>
       </fr:mainmatter>
     </fr:tree>
   </fr:mainmatter>
@@ -130,6 +172,8 @@
 </html:p>
                 <html:p>
     We can compactify <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> in a similar manner: just do <fr:tex display="inline"><![CDATA[\overline {\mathbb {C}} = \mathbb {C} \cup  \{\infty \}]]></fr:tex>. A tangible model for this compactification is a sphere, also usually called the <html:em>Riemann sphere</html:em>. Conventions may vary, but we can think of it as a sphere placed on the complex plane, touching the <fr:tex display="inline"><![CDATA[xy]]></fr:tex>-plane at <fr:tex display="inline"><![CDATA[(0,0,0)]]></fr:tex>, centered at <fr:tex display="inline"><![CDATA[(0,0,1)]]></fr:tex>, with a radius of <fr:tex display="inline"><![CDATA[1]]></fr:tex>. Then the north pole <fr:tex display="inline"><![CDATA[N]]></fr:tex> is at the point <fr:tex display="inline"><![CDATA[(0,0,2)]]></fr:tex>. The reason why the Riemann sphere is indeed a model of (ie. homeomorphic to) <fr:tex display="inline"><![CDATA[\overline {\mathbb {C}}]]></fr:tex> is again the stereographic projection; in order to map the north pole <fr:tex display="inline"><![CDATA[N]]></fr:tex> somewhere, <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> alone won't do, but in <fr:tex display="inline"><![CDATA[\overline {\mathbb {C}}]]></fr:tex>, <fr:tex display="inline"><![CDATA[N]]></fr:tex> has a natural place to map to: <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>.</html:p>
+                <html:p>We can define a metric <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> on <fr:tex display="inline"><![CDATA[\overline  \mathbb {C}]]></fr:tex> for complex numbers <fr:tex display="inline"><![CDATA[s_1, s_2]]></fr:tex> in the following way: <fr:tex display="block"><![CDATA[\rho (s_1,s_2) = \overline {S_1 S_2},]]></fr:tex> where <fr:tex display="inline"><![CDATA[S_1, S_2]]></fr:tex> are points on the Riemann sphere corresponding to <fr:tex display="inline"><![CDATA[s_1, s_2]]></fr:tex>.</html:p>
+                <html:p>With such metric, <fr:tex display="inline"><![CDATA[\overline  \mathbb {C}]]></fr:tex> is compact, whereas the plain <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> was only locally compact (and unbounded) wrt. to the usual metric.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false" numbered="false">
@@ -138,35 +182,28 @@
                 <fr:uri>https://d-atif.github.io/output/basic-objects/</fr:uri>
                 <fr:display-uri>basic-objects</fr:display-uri>
                 <fr:route>/output/basic-objects/</fr:route>
-                <fr:title text="Domains, curve, Jordan curves">Domains, curve, Jordan curves</fr:title>
+                <fr:title text="Domains&amp;Curves">Domains&amp;Curves</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
                     <fr:authors />
-                    <fr:title text="Domain">Domain</fr:title>
+                    <fr:title text="Domain &amp; Simply connected domain">Domain &amp; Simply connected domain</fr:title>
                     <fr:taxon>Definition</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:p>
     A set <fr:tex display="inline"><![CDATA[D \subseteq  \mathbb {C}]]></fr:tex> that is both open and connected is called a <html:em>domain</html:em>. 
   </html:p>
-                    <html:p>Most results in complex analysis assume that the underlying set is a domain, so this is a key notion.</html:p>
-                  </fr:mainmatter>
-                </fr:tree>
-                <fr:tree show-metadata="false">
-                  <fr:frontmatter>
-                    <fr:authors />
-                    <fr:title text="Simply connected domain">Simply connected domain</fr:title>
-                    <fr:taxon>Definition</fr:taxon>
-                  </fr:frontmatter>
-                  <fr:mainmatter>
                     <html:p>
-        We say that a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is <html:em>simply connected</html:em> if the set <fr:tex display="inline"><![CDATA[\mathbb {C}\setminus  U]]></fr:tex> has no bounded components.
+     We say that a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is <html:em>simply connected</html:em> if the set <fr:tex display="inline"><![CDATA[\mathbb {C}\setminus  U]]></fr:tex> has no bounded components. In other words, it's a domain with no holes.
     </html:p>
                     <html:p>
-        In other words, the domain has no holes. A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline {\mathbb {C}} \setminus  U]]></fr:tex> is connected.
+     A useful characterisation is the theorem that says that <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline {\mathbb {C}}  \setminus  U]]></fr:tex> is connected.
     </html:p>
+                    <html:p>
+    A domain that's not simply connected is a <html:em>multiply connected</html:em> domain; i.e. it has holes.
+  </html:p>
                   </fr:mainmatter>
                 </fr:tree>
                 <fr:tree show-metadata="false">
@@ -209,6 +246,55 @@
                     <html:p>
         A <html:em>piecewise smooth curve</html:em> is a curve that is made of finitely many smooth curves. More idiomatically, we call such a curve a <html:em>contour</html:em>.
     </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>Here are some key results regarding these basic notions.</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>If <fr:tex display="inline"><![CDATA[K \subset  \mathbb {C}]]></fr:tex> is compact, then <fr:tex display="inline"><![CDATA[\mathbb {C} \setminus  K]]></fr:tex> has exactly one unbounded component.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A domain <fr:tex display="inline"><![CDATA[U]]></fr:tex> is simply connected iff <fr:tex display="inline"><![CDATA[\overline  \mathbb {C} \setminus  U]]></fr:tex> is connected.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Every open convex subset of <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> is a simply connected domain.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Jordan theorem">Jordan theorem</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Every simple closed curve <fr:tex display="inline"><![CDATA[\gamma \subset \mathbb {C}]]></fr:tex> divides <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> in two disjoint domains, of which one is bounded and the other unbounded; <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of both those domains.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Jordan theorem">Jordan theorem</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>For a curve <fr:tex display="inline"><![CDATA[\gamma : I \to  \mathbb {C}]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there always exists a piecewise linear curve <fr:tex display="inline"><![CDATA[\tilde  \gamma ]]></fr:tex> s.t. d(\gamma ,\tilde  \gamma )&lt;\varepsilon .</html:p>
+                    <html:p>In other words, we can approximate every curve with a piecewise linear curve to an arbitrary precision.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
               </fr:mainmatter>
