@@ -85,6 +85,7 @@
     <fr:tree show-metadata="false">
       <fr:frontmatter>
         <fr:authors />
+        <fr:title text="Simply connected domain characterization">Simply connected domain characterization</fr:title>
         <fr:taxon>Theorem</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
@@ -94,6 +95,7 @@
     <fr:tree show-metadata="false">
       <fr:frontmatter>
         <fr:authors />
+        <fr:title text="Open&amp;convex implies simply connected">Open&amp;convex implies simply connected</fr:title>
         <fr:taxon>Theorem</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
@@ -113,6 +115,7 @@
     <fr:tree show-metadata="false">
       <fr:frontmatter>
         <fr:authors />
+        <fr:title text="Curve approximation">Curve approximation</fr:title>
         <fr:taxon>Theorem</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
@@ -260,6 +263,7 @@
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
                     <fr:authors />
+                    <fr:title text="Simply connected domain characterization">Simply connected domain characterization</fr:title>
                     <fr:taxon>Theorem</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
@@ -269,6 +273,7 @@
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
                     <fr:authors />
+                    <fr:title text="Open&amp;convex implies simply connected">Open&amp;convex implies simply connected</fr:title>
                     <fr:taxon>Theorem</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
@@ -288,6 +293,7 @@
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
                     <fr:authors />
+                    <fr:title text="Curve approximation">Curve approximation</fr:title>
                     <fr:taxon>Theorem</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
@@ -314,15 +320,15 @@
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:p>
-        Let <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a complex function that's defined on some open disk that contains the point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>. We say that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <html:em>analytic</html:em> (or differentiable) in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, if the following limit exists in <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>: <fr:tex display="block"><![CDATA[\lim _{z\to \z _0}\frac {f(z)-f(z_0)}{z-z_0}]]></fr:tex></html:p>
+        Let <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a complex function that's defined on some open disk that contains the point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>. We say that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <html:em>analytic</html:em> (or differentiable) in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, if the following limit exists in <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>: <fr:tex display="block"><![CDATA[\lim _{z \to  z_0}\frac {f(z)-f(z_0)}{z-z_0}]]></fr:tex></html:p>
                     <html:p>Function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <html:em>holomorphic</html:em> on a domain <fr:tex display="inline"><![CDATA[U]]></fr:tex>, if it's differentiable (analytic) in a neighbourhood of every point of the domain <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
                     <fr:authors />
-                    <fr:title text="Cauchy-Riemann equations">Cauchy-Riemann equations</fr:title>
-                    <fr:taxon>Definition</fr:taxon>
+                    <fr:title text="Differentiability via Cauchy-Riemann eqs">Differentiability via Cauchy-Riemann eqs</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:p>Let <fr:tex display="inline"><![CDATA[f(z) = u(x,y) + iv(x,y)]]></fr:tex>, for <fr:tex display="inline"><![CDATA[x+iy = z \in  D\subseteq  \mathbb {C}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[D]]></fr:tex> is open; let also <fr:tex display="inline"><![CDATA[(x_0,y_0) = z_0 \in  D]]></fr:tex>.</html:p>
