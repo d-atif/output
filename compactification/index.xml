@@ -187,11 +187,10 @@
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
                     <fr:authors />
-                    <fr:title text="Jordan theorem">Jordan theorem</fr:title>
                     <fr:taxon>Theorem</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
-                    <html:p>For a curve <fr:tex display="inline"><![CDATA[\gamma : I \to  \mathbb {C}]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there always exists a piecewise linear curve <fr:tex display="inline"><![CDATA[\tilde  \gamma ]]></fr:tex> s.t. d(\gamma ,\tilde  \gamma )&lt;\varepsilon .</html:p>
+                    <html:p>For a curve <fr:tex display="inline"><![CDATA[\gamma : I \to  \mathbb {C}]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there always exists a piecewise linear curve <fr:tex display="inline"><![CDATA[\tilde  \gamma ]]></fr:tex> s.t. <fr:tex display="inline"><![CDATA[d(\gamma ,\tilde  \gamma )<\varepsilon ]]></fr:tex>.</html:p>
                     <html:p>In other words, we can approximate every curve with a piecewise linear curve to an arbitrary precision.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
