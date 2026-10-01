@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/output/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/output/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://d-atif.github.io/output/power-series/</fr:uri>
+    <fr:display-uri>power-series</fr:display-uri>
+    <fr:route>/output/power-series/</fr:route>
+    <fr:title text="Power series">Power series</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Power series are important, thus the spoiler: every function that's analytic in some neighborhood has a power series representation, i.e. it can be written as a power series (in that neighborhood).</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>Let <fr:tex display="inline"><![CDATA[\sum _{n}^{\infty } f_n]]></fr:tex> be a series of continuous functions on an open set <fr:tex display="inline"><![CDATA[D\subseteq  \mathbb {C}]]></fr:tex> that converges uniformly to <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is continuous on <fr:tex display="inline"><![CDATA[D]]></fr:tex>.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Power series">Power series</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>A <html:em>power series</html:em> is a series of the form <fr:tex display="block"><![CDATA[\sum _{n=0}^{\infty } a_n (z-z_0)^n \ ,]]></fr:tex> where <fr:tex display="inline"><![CDATA[a_n]]></fr:tex> is a sequence in <fr:tex display="inline"><![CDATA[C]]></fr:tex> and <fr:tex display="inline"><![CDATA[z_0 \in  \mathbb {C}]]></fr:tex> is an arbitrary point.</html:p>
+        <html:p>By setting <fr:tex display="inline"><![CDATA[w = z-z_0]]></fr:tex>, we can write the series like <fr:tex display="block"><![CDATA[\sum _{n=0}^{\infty } a_n w^n \ ,]]></fr:tex> and we often use this shortcut to talk about power series, by assuming wlog. that <fr:tex display="inline"><![CDATA[z_0 = 0]]></fr:tex>.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Power series convergence criteria">Power series convergence criteria</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Let <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a power series as in the above definition and let <fr:tex display="inline"><![CDATA[L := \limsup _{n \to  \infty } \sqrt [n]{|a_n|}]]></fr:tex>.
+        <html:ol><html:li>If <fr:tex display="inline"><![CDATA[L = 0]]></fr:tex>, then the power series <fr:tex display="inline"><![CDATA[f]]></fr:tex> converges for all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex>.</html:li>
+            <html:li>If <fr:tex display="inline"><![CDATA[L = \infty ]]></fr:tex>, then the power series <fr:tex display="inline"><![CDATA[f]]></fr:tex> converges only for <fr:tex display="inline"><![CDATA[z = z_0]]></fr:tex>.</html:li>
+            <html:li>If <fr:tex display="inline"><![CDATA[L \in  (0,\infty )]]></fr:tex>, then the power series <fr:tex display="inline"><![CDATA[f]]></fr:tex> converges for <fr:tex display="inline"><![CDATA[|z-z_0|<R]]></fr:tex>, and diverges for <fr:tex display="inline"><![CDATA[|z-z_0| > R]]></fr:tex>, where <fr:tex display="inline"><![CDATA[R = 1/L]]></fr:tex>.</html:li></html:ol></html:p>
+        <html:p />
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
