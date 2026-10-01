@@ -396,7 +396,7 @@
                 <fr:title text="Power series">Power series</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>Power series are important, thus the spoiler: every function that's analytic in some neighborhood has a power series representation, i.e. it can be written as a power series (in that neighborhood).</html:p>
+                <html:p>Power series are important, thus the spoiler: every function that's analytic in some neighborhood has a power series representation, i.e. it can be written as a power series (in that neighborhood). This also sheds some light on why the functions that are locally representable by a power series are also called analytic (in broader sense; if you thought the overloaded, it kind of isn't.)</html:p>
                 <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
@@ -446,12 +446,12 @@
                 <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
-                    <fr:title text="Power series convergence criteria">Power series convergence criteria</fr:title>
+                    <fr:title text="Uniform convergence on closed disks">Uniform convergence on closed disks</fr:title>
                     <fr:taxon>Theorem</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:p>Let <fr:tex display="inline"><![CDATA[R \in  0, \lparen  \infty  \rbrack ]]></fr:tex> , then the power series converges uniformly on every closed disk <fr:tex display="inline"><![CDATA[\bar {D}(z_0, R_{\delta })]]></fr:tex>, where <fr:tex display="inline"><![CDATA[R_{\delta }=R-\delta ]]></fr:tex> for any <fr:tex display="inline"><![CDATA[\delta  \in  (0, R)]]></fr:tex>.</html:p>
-                    <html:p>An immediate corollary to this is that the power series as a function is continuous on <fr:tex display="inline"><![CDATA[D(z_0, R)]]></fr:tex>.</html:p>
+                    <html:p>An immediate corollary of this is that the power series as a function is continuous on <fr:tex display="inline"><![CDATA[D(z_0, R)]]></fr:tex>.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
               </fr:mainmatter>
