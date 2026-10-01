@@ -47,7 +47,11 @@
         If <fr:tex display="inline"><![CDATA[u]]></fr:tex> is harmonic on domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex> is harmonic s.t. <fr:tex display="inline"><![CDATA[u+iv]]></fr:tex> is holomorphic, then we say that <fr:tex display="inline"><![CDATA[v]]></fr:tex> is the <html:em>harmonic conjugate</html:em> of <fr:tex display="inline"><![CDATA[u]]></fr:tex>. (<fr:tex display="inline"><![CDATA[v]]></fr:tex> is unique up to an additive constant; the next theorem gives us information about existence.)
     </html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:title text="Existence of harmonic conjugate">Existence of harmonic conjugate</fr:title><fr:taxon>Theorem</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
         If <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a simply connected domain, and <fr:tex display="inline"><![CDATA[u]]></fr:tex> harmonic on <fr:tex display="inline"><![CDATA[D]]></fr:tex>, then there exists a(the) harmonic conjugate of <fr:tex display="inline"><![CDATA[u]]></fr:tex>.
-    </html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></html:li>
+    </html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree show-metadata="false" numbered="false"><fr:frontmatter><fr:authors /><fr:uri>https://d-atif.github.io/output/power-series/</fr:uri><fr:display-uri>power-series</fr:display-uri><fr:route>/output/power-series/</fr:route><fr:title text="Power series">Power series</fr:title></fr:frontmatter><fr:mainmatter><html:p>Power series are important, thus the spoiler: every function that's analytic in some neighborhood has a power series representation, i.e. it can be written as a power series (in that neighborhood).</html:p><fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:taxon>Theorem</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\sum _{n}^{\infty } f_n]]></fr:tex> be a series of continuous functions on an open set <fr:tex display="inline"><![CDATA[D\subseteq  \mathbb {C}]]></fr:tex> that converges uniformly to <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is continuous on <fr:tex display="inline"><![CDATA[D]]></fr:tex>.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:title text="Power series">Power series</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>A <html:em>power series</html:em> is a series of the form <fr:tex display="block"><![CDATA[\sum _{n=0}^{\infty } a_n (z-z_0)^n]]></fr:tex> where <fr:tex display="inline"><![CDATA[a_n]]></fr:tex> is a sequence in <fr:tex display="inline"><![CDATA[C]]></fr:tex> and <fr:tex display="inline"><![CDATA[z_0 \in  \mathbb {C}]]></fr:tex> is an arbitrary point.</html:p><html:p>By setting <fr:tex display="inline"><![CDATA[w = z-z_0]]></fr:tex>, we can write the series like <fr:tex display="block"><![CDATA[\sum _{n=0}^{\infty } a_n w^n]]></fr:tex> and we often use this shortcut to talk about power series, by assuming wlog. that <fr:tex display="inline"><![CDATA[z_0 = 0]]></fr:tex>.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:title text="Power series convergence criteria">Power series convergence criteria</fr:title><fr:taxon>Theorem</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+        Let <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a power series as in the above definition and let <fr:tex display="inline"><![CDATA[L := \limsup \limits _{n \to  \infty } \sqrt [n]{|a_n|}]]></fr:tex>.
+        <html:ol><html:li>If <fr:tex display="inline"><![CDATA[L = 0]]></fr:tex>, then the power series <fr:tex display="inline"><![CDATA[f]]></fr:tex> converges for all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex>.</html:li>
+            <html:li>If <fr:tex display="inline"><![CDATA[L = \infty ]]></fr:tex>, then the power series <fr:tex display="inline"><![CDATA[f]]></fr:tex> converges only for <fr:tex display="inline"><![CDATA[z = z_0]]></fr:tex>.</html:li>
+            <html:li>If <fr:tex display="inline"><![CDATA[L \in  (0,\infty )]]></fr:tex>, then the power series <fr:tex display="inline"><![CDATA[f]]></fr:tex> converges for <fr:tex display="inline"><![CDATA[|z-z_0|<R]]></fr:tex>, and diverges for <fr:tex display="inline"><![CDATA[|z-z_0| > R]]></fr:tex>, where <fr:tex display="inline"><![CDATA[R = 1/L]]></fr:tex>.</html:li></html:ol></html:p><html:p>It's immediate that a convergent power series converges absolutely within the disk <fr:tex display="inline"><![CDATA[D(z_0, R)]]></fr:tex>.</html:p></fr:mainmatter></fr:tree><html:p>The above theorem doesn't give us information whether the power series converges on the boundary (circle) <fr:tex display="inline"><![CDATA[|z-z_0| = R]]></fr:tex>; it's possible that the series converges only for some points on the boundary, and also that it converges/diverges for every point on the boundary.</html:p><fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:title text="Radius of convergence">Radius of convergence</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>The <fr:tex display="inline"><![CDATA[R=1/L]]></fr:tex> defined in the theorem above is called the <html:em>radius of convergence</html:em> of the given power series.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:title text="Power series convergence criteria">Power series convergence criteria</fr:title><fr:taxon>Theorem</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R \in  0, \lparen  \infty  \rbrack ]]></fr:tex> , then the power series converges uniformly on every closed disk <fr:tex display="inline"><![CDATA[\bar {D}(z_0, R_{\delta })]]></fr:tex>, where <fr:tex display="inline"><![CDATA[R_{\delta }=R-\delta ]]></fr:tex> for any <fr:tex display="inline"><![CDATA[\delta  \in  (0, R)]]></fr:tex>.</html:p><html:p>An immediate corollary to this is that the power series as a function is continuous on <fr:tex display="inline"><![CDATA[D(z_0, R)]]></fr:tex>.</html:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></html:li>
   <html:li><fr:tree show-metadata="false" expanded="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/output/atifdegirmendzic/" title="Atif Degirmendzic" uri="https://d-atif.github.io/output/atifdegirmendzic/" display-uri="atifdegirmendzic" type="local">Atif Degirmendzic</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>9</fr:month><fr:day>16</fr:day></fr:date><fr:uri>https://d-atif.github.io/output/0007/</fr:uri><fr:display-uri>0007</fr:display-uri><fr:route>/output/0007/</fr:route><fr:title text="Random notes on Tammo Tom Dieck's Algebraic Topology">Random notes on Tammo Tom Dieck's Algebraic Topology</fr:title><fr:taxon>Note</fr:taxon></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false" numbered="false"><fr:frontmatter><fr:authors /><fr:uri>https://d-atif.github.io/output/ch1-top-spaces/</fr:uri><fr:display-uri>ch1-top-spaces</fr:display-uri><fr:route>/output/ch1-top-spaces/</fr:route><fr:title text="Chapter 1: Topological Spaces">Chapter 1: Topological Spaces</fr:title></fr:frontmatter><fr:mainmatter><fr:tree show-metadata="false" numbered="false"><fr:frontmatter><fr:authors /><fr:title text="1.1 Basic Notions">1.1 Basic Notions</fr:title></fr:frontmatter><fr:mainmatter><html:ul><html:li><fr:link href="https://en.wikipedia.org/wiki/Kolmogorov_spaceThe_Kolmogorov_quotient" type="external">Kolmogorov Quotients</fr:link> are always <fr:tex display="inline"><![CDATA[T_0]]></fr:tex> (or Kolmogorov spaces). Kolmogorov spaces are a reflective subcategory of topological spaces, the Kolmogorov quotient is the reflector.</html:li>
         <html:li>Metrizable spaces have countable neighborhood bases of points: Take the <fr:tex display="inline"><![CDATA[U_{\varepsilon } (x)]]></fr:tex> with rational <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex>.</html:li>
         <html:li>It has become clear to me now that <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is some kind of ruler and a reference structure for much of these developments. Perhaps just as <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> was for <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>, through <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> and further <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. I'm stating a simple fact here, e.g., the codomain of a metric is <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> (that's how we defined it), that's all. I never deeply internalised that the codomain for a metric can't be anything else. Which leads to the natural question, is there a generalisation of a metric wrt. its codomain, which can have something else for its codomain, or, must have an abstract object <fr:tex display="inline"><![CDATA[X]]></fr:tex>, which must satisfy some properties, and so on.</html:li></html:ul></fr:mainmatter></fr:tree><fr:tree show-metadata="false" numbered="false"><fr:frontmatter><fr:authors /><fr:title text="1.2 Subspaces. Quotient Spaces">1.2 Subspaces. Quotient Spaces</fr:title></fr:frontmatter><fr:mainmatter><html:ul><html:li>This subsection could be efficiently summarised (mod embeddings talk) with this problem: Prove <fr:tex display="inline"><![CDATA[\mathbb {R} / \mathbb {Z}]]></fr:tex> is homeomorphic to  <fr:tex display="inline"><![CDATA[S^1]]></fr:tex>. To solve it you need quotient mapping characterisation, you get to use the Universal Property of quotient maps, you get a hint of the algebra-topology interplay. (Also, you remind yourself of the open mapping theorem from complex analysis.)</html:li></html:ul></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></html:li>
@@ -383,6 +387,75 @@
                         <html:p>
         If <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a simply connected domain, and <fr:tex display="inline"><![CDATA[u]]></fr:tex> harmonic on <fr:tex display="inline"><![CDATA[D]]></fr:tex>, then there exists a(the) harmonic conjugate of <fr:tex display="inline"><![CDATA[u]]></fr:tex>.
     </html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:uri>https://d-atif.github.io/output/power-series/</fr:uri>
+                    <fr:display-uri>power-series</fr:display-uri>
+                    <fr:route>/output/power-series/</fr:route>
+                    <fr:title text="Power series">Power series</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Power series are important, thus the spoiler: every function that's analytic in some neighborhood has a power series representation, i.e. it can be written as a power series (in that neighborhood).</html:p>
+                    <fr:tree show-metadata="false" toc="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:taxon>Theorem</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>Let <fr:tex display="inline"><![CDATA[\sum _{n}^{\infty } f_n]]></fr:tex> be a series of continuous functions on an open set <fr:tex display="inline"><![CDATA[D\subseteq  \mathbb {C}]]></fr:tex> that converges uniformly to <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is continuous on <fr:tex display="inline"><![CDATA[D]]></fr:tex>.</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false" toc="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:title text="Power series">Power series</fr:title>
+                        <fr:taxon>Definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>A <html:em>power series</html:em> is a series of the form <fr:tex display="block"><![CDATA[\sum _{n=0}^{\infty } a_n (z-z_0)^n]]></fr:tex> where <fr:tex display="inline"><![CDATA[a_n]]></fr:tex> is a sequence in <fr:tex display="inline"><![CDATA[C]]></fr:tex> and <fr:tex display="inline"><![CDATA[z_0 \in  \mathbb {C}]]></fr:tex> is an arbitrary point.</html:p>
+                        <html:p>By setting <fr:tex display="inline"><![CDATA[w = z-z_0]]></fr:tex>, we can write the series like <fr:tex display="block"><![CDATA[\sum _{n=0}^{\infty } a_n w^n]]></fr:tex> and we often use this shortcut to talk about power series, by assuming wlog. that <fr:tex display="inline"><![CDATA[z_0 = 0]]></fr:tex>.</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false" toc="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:title text="Power series convergence criteria">Power series convergence criteria</fr:title>
+                        <fr:taxon>Theorem</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+        Let <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a power series as in the above definition and let <fr:tex display="inline"><![CDATA[L := \limsup \limits _{n \to  \infty } \sqrt [n]{|a_n|}]]></fr:tex>.
+        <html:ol><html:li>If <fr:tex display="inline"><![CDATA[L = 0]]></fr:tex>, then the power series <fr:tex display="inline"><![CDATA[f]]></fr:tex> converges for all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex>.</html:li>
+            <html:li>If <fr:tex display="inline"><![CDATA[L = \infty ]]></fr:tex>, then the power series <fr:tex display="inline"><![CDATA[f]]></fr:tex> converges only for <fr:tex display="inline"><![CDATA[z = z_0]]></fr:tex>.</html:li>
+            <html:li>If <fr:tex display="inline"><![CDATA[L \in  (0,\infty )]]></fr:tex>, then the power series <fr:tex display="inline"><![CDATA[f]]></fr:tex> converges for <fr:tex display="inline"><![CDATA[|z-z_0|<R]]></fr:tex>, and diverges for <fr:tex display="inline"><![CDATA[|z-z_0| > R]]></fr:tex>, where <fr:tex display="inline"><![CDATA[R = 1/L]]></fr:tex>.</html:li></html:ol></html:p>
+                        <html:p>It's immediate that a convergent power series converges absolutely within the disk <fr:tex display="inline"><![CDATA[D(z_0, R)]]></fr:tex>.</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <html:p>The above theorem doesn't give us information whether the power series converges on the boundary (circle) <fr:tex display="inline"><![CDATA[|z-z_0| = R]]></fr:tex>; it's possible that the series converges only for some points on the boundary, and also that it converges/diverges for every point on the boundary.</html:p>
+                    <fr:tree show-metadata="false" toc="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:title text="Radius of convergence">Radius of convergence</fr:title>
+                        <fr:taxon>Definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>The <fr:tex display="inline"><![CDATA[R=1/L]]></fr:tex> defined in the theorem above is called the <html:em>radius of convergence</html:em> of the given power series.</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false" toc="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:title text="Power series convergence criteria">Power series convergence criteria</fr:title>
+                        <fr:taxon>Theorem</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>Let <fr:tex display="inline"><![CDATA[R \in  0, \lparen  \infty  \rbrack ]]></fr:tex> , then the power series converges uniformly on every closed disk <fr:tex display="inline"><![CDATA[\bar {D}(z_0, R_{\delta })]]></fr:tex>, where <fr:tex display="inline"><![CDATA[R_{\delta }=R-\delta ]]></fr:tex> for any <fr:tex display="inline"><![CDATA[\delta  \in  (0, R)]]></fr:tex>.</html:p>
+                        <html:p>An immediate corollary to this is that the power series as a function is continuous on <fr:tex display="inline"><![CDATA[D(z_0, R)]]></fr:tex>.</html:p>
                       </fr:mainmatter>
                     </fr:tree>
                   </fr:mainmatter>
