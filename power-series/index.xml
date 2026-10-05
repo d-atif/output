@@ -67,6 +67,58 @@
         <html:p>An immediate corollary of this is that the power series as a function is continuous on <fr:tex display="inline"><![CDATA[D(z_0, R)]]></fr:tex>.</html:p>
       </fr:mainmatter>
     </fr:tree>
+    <html:p>As we saw, the power series is a series whose terms are functions of the form <fr:tex display="inline"><![CDATA[f_n(z):=a_n(z-z_0)^n]]></fr:tex> which are holomorphic on the whole complex plane and whose derivative is given with <fr:tex display="inline"><![CDATA[f_{n}'= na_n(z-z_0)^{n-1}]]></fr:tex>.</html:p>
+    <html:p>Now we are going to focus on the results that say that the power series is a holomorphic function within the disk of convergence, and that we can differentiate the series term by term.</html:p>
+    <fr:tree show-metadata="false" toc="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Series of derivatives has same radius of convergence">Series of derivatives has same radius of convergence</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Let the power series <fr:tex display="inline"><![CDATA[f(z) = \sum _{n=0}^{\infty } a_n z^n]]></fr:tex> have a radius of convergence <fr:tex display="inline"><![CDATA[R]]></fr:tex>, then the series <fr:tex display="inline"><![CDATA[g(z) = \sum _{n=1}^{\infty } na_n z^{n-1}]]></fr:tex> also has radius of convergence <fr:tex display="inline"><![CDATA[R]]></fr:tex>.
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" toc="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Power series is a holomorphic function within disk of convergence">Power series is a holomorphic function within disk of convergence</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Let <fr:tex display="inline"><![CDATA[f(z)]]></fr:tex> be as in above, and <fr:tex display="inline"><![CDATA[R]]></fr:tex> its radius of convergence. Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic on <fr:tex display="inline"><![CDATA[D(0,R)]]></fr:tex> and we have <fr:tex display="block"><![CDATA[f'(z) = \sum _{n=1}^{\infty } n a_n z^{n-1}.]]></fr:tex>
+        In other words, we can differentiate the power series term by term.
+    </html:p>
+        <html:p>This easily generalizes to the more general shifted power series whose terms are <fr:tex display="inline"><![CDATA[a_n(z-z_0)^{n-1}]]></fr:tex>.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" toc="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="A power series is inifinitely differentiable in D">A power series is inifinitely differentiable in <fr:tex display="inline"><![CDATA[D]]></fr:tex></fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Let <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a power series and <fr:tex display="inline"><![CDATA[R]]></fr:tex> its radius of convergence. Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable for every <fr:tex display="inline"><![CDATA[k \in  \mathbb  N]]></fr:tex> in every point <fr:tex display="inline"><![CDATA[z \in  D(z_0, R)]]></fr:tex> and the following holds: <fr:tex display="block"><![CDATA[f^{(k)}(z) = \sum _{n=k}^{\infty } n(n-1)\dots  (n-(k-1))a_n(z-z_0)^{n-k}.]]></fr:tex> (proof by induction)
+    </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" toc="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Uniqueness theorem for power series">Uniqueness theorem for power series</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+        Let <fr:tex display="block"><![CDATA[f(z) := \sum _{n=0}^{\infty }a_n(z-z_0)^n, \quad  g(z):= \sum _{n=0}^{\infty }b_n(z-z_0)^n \ ,]]></fr:tex> be two power series that are convergent for all <fr:tex display="inline"><![CDATA[z \in  D(z_0, R)]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\{w_k\} \subseteq  D(z_0, R)]]></fr:tex> be a sequence of complex numbers s.t. <fr:tex display="inline"><![CDATA[\lim _{k \to  \infty }w_k = z_0]]></fr:tex> but <fr:tex display="inline"><![CDATA[w_k \neq  z_0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[k \in  \mathbb {N}]]></fr:tex>. If <fr:tex display="inline"><![CDATA[f(w_k) = g(w_k)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[k]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a_n = b_n]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\geq  0]]></fr:tex>, that is, <fr:tex display="inline"><![CDATA[f(z) = g(z)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[z \in  D(z_0, R).]]></fr:tex></html:p>
+        <html:p>In other words, if two convergent power series are equal on an countable set of elements of the complex plane, then they are equal (everywhere else).</html:p>
+      </fr:mainmatter>
+    </fr:tree>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -396,6 +448,58 @@
                   <fr:mainmatter>
                     <html:p>Let <fr:tex display="inline"><![CDATA[R \in  0, \lparen  \infty  \rbrack ]]></fr:tex> , then the power series converges uniformly on every closed disk <fr:tex display="inline"><![CDATA[\bar {D}(z_0, R_{\delta })]]></fr:tex>, where <fr:tex display="inline"><![CDATA[R_{\delta }=R-\delta ]]></fr:tex> for any <fr:tex display="inline"><![CDATA[\delta  \in  (0, R)]]></fr:tex>.</html:p>
                     <html:p>An immediate corollary of this is that the power series as a function is continuous on <fr:tex display="inline"><![CDATA[D(z_0, R)]]></fr:tex>.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>As we saw, the power series is a series whose terms are functions of the form <fr:tex display="inline"><![CDATA[f_n(z):=a_n(z-z_0)^n]]></fr:tex> which are holomorphic on the whole complex plane and whose derivative is given with <fr:tex display="inline"><![CDATA[f_{n}'= na_n(z-z_0)^{n-1}]]></fr:tex>.</html:p>
+                <html:p>Now we are going to focus on the results that say that the power series is a holomorphic function within the disk of convergence, and that we can differentiate the series term by term.</html:p>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Series of derivatives has same radius of convergence">Series of derivatives has same radius of convergence</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Let the power series <fr:tex display="inline"><![CDATA[f(z) = \sum _{n=0}^{\infty } a_n z^n]]></fr:tex> have a radius of convergence <fr:tex display="inline"><![CDATA[R]]></fr:tex>, then the series <fr:tex display="inline"><![CDATA[g(z) = \sum _{n=1}^{\infty } na_n z^{n-1}]]></fr:tex> also has radius of convergence <fr:tex display="inline"><![CDATA[R]]></fr:tex>.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Power series is a holomorphic function within disk of convergence">Power series is a holomorphic function within disk of convergence</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Let <fr:tex display="inline"><![CDATA[f(z)]]></fr:tex> be as in above, and <fr:tex display="inline"><![CDATA[R]]></fr:tex> its radius of convergence. Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic on <fr:tex display="inline"><![CDATA[D(0,R)]]></fr:tex> and we have <fr:tex display="block"><![CDATA[f'(z) = \sum _{n=1}^{\infty } n a_n z^{n-1}.]]></fr:tex>
+        In other words, we can differentiate the power series term by term.
+    </html:p>
+                    <html:p>This easily generalizes to the more general shifted power series whose terms are <fr:tex display="inline"><![CDATA[a_n(z-z_0)^{n-1}]]></fr:tex>.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="A power series is inifinitely differentiable in D">A power series is inifinitely differentiable in <fr:tex display="inline"><![CDATA[D]]></fr:tex></fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Let <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a power series and <fr:tex display="inline"><![CDATA[R]]></fr:tex> its radius of convergence. Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is differentiable for every <fr:tex display="inline"><![CDATA[k \in  \mathbb  N]]></fr:tex> in every point <fr:tex display="inline"><![CDATA[z \in  D(z_0, R)]]></fr:tex> and the following holds: <fr:tex display="block"><![CDATA[f^{(k)}(z) = \sum _{n=k}^{\infty } n(n-1)\dots  (n-(k-1))a_n(z-z_0)^{n-k}.]]></fr:tex> (proof by induction)
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Uniqueness theorem for power series">Uniqueness theorem for power series</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Let <fr:tex display="block"><![CDATA[f(z) := \sum _{n=0}^{\infty }a_n(z-z_0)^n, \quad  g(z):= \sum _{n=0}^{\infty }b_n(z-z_0)^n \ ,]]></fr:tex> be two power series that are convergent for all <fr:tex display="inline"><![CDATA[z \in  D(z_0, R)]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\{w_k\} \subseteq  D(z_0, R)]]></fr:tex> be a sequence of complex numbers s.t. <fr:tex display="inline"><![CDATA[\lim _{k \to  \infty }w_k = z_0]]></fr:tex> but <fr:tex display="inline"><![CDATA[w_k \neq  z_0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[k \in  \mathbb {N}]]></fr:tex>. If <fr:tex display="inline"><![CDATA[f(w_k) = g(w_k)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[k]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a_n = b_n]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\geq  0]]></fr:tex>, that is, <fr:tex display="inline"><![CDATA[f(z) = g(z)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[z \in  D(z_0, R).]]></fr:tex></html:p>
+                    <html:p>In other words, if two convergent power series are equal on an countable set of elements of the complex plane, then they are equal (everywhere else).</html:p>
                   </fr:mainmatter>
                 </fr:tree>
               </fr:mainmatter>
