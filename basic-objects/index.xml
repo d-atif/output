@@ -454,7 +454,7 @@
                     <html:p>An immediate corollary of this is that the power series as a function is continuous on <fr:tex display="inline"><![CDATA[D(z_0, R)]]></fr:tex>.</html:p>
                   </fr:mainmatter>
                 </fr:tree>
-                <html:p>As we saw, the power series is a series whose terms are functions of the form <fr:tex display="inline"><![CDATA[f_n(z):=a_n(z-z_0)^n]]></fr:tex> which are holomorphic on the whole complex plane and whose derivative is given with <fr:tex display="inline"><![CDATA[f_{n}'= na_n(z-z_0)^{n-1}]]></fr:tex>.</html:p>
+                <html:p>As we saw, the power series is a series whose terms are functions of the form <fr:tex display="inline"><![CDATA[f_n(z):=a_n(z-z_0)^n]]></fr:tex> which are holomorphic on the whole complex plane and whose derivative is <fr:tex display="inline"><![CDATA[f_{n}'= na_n(z-z_0)^{n-1}]]></fr:tex>.</html:p>
                 <html:p>Now we are going to focus on the results that say that the power series is a holomorphic function within the disk of convergence, and that we can differentiate the series term by term.</html:p>
                 <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
@@ -464,7 +464,7 @@
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:p>
-        Let the power series <fr:tex display="inline"><![CDATA[f(z) = \sum _{n=0}^{\infty } a_n z^n]]></fr:tex> have a radius of convergence <fr:tex display="inline"><![CDATA[R]]></fr:tex>, then the series <fr:tex display="inline"><![CDATA[g(z) = \sum _{n=1}^{\infty } na_n z^{n-1}]]></fr:tex> also has radius of convergence <fr:tex display="inline"><![CDATA[R]]></fr:tex>.
+        Let the power series <fr:tex display="inline"><![CDATA[f(z) = \sum _{n=0}^{\infty } a_n z^n]]></fr:tex> have a radius of convergence <fr:tex display="inline"><![CDATA[R]]></fr:tex>, then the series of derivatives <fr:tex display="inline"><![CDATA[g(z) = \sum _{n=1}^{\infty } na_n z^{n-1}]]></fr:tex> also has radius of convergence <fr:tex display="inline"><![CDATA[R]]></fr:tex>.
     </html:p>
                   </fr:mainmatter>
                 </fr:tree>
@@ -505,6 +505,45 @@
         Let <fr:tex display="block"><![CDATA[f(z) := \sum _{n=0}^{\infty }a_n(z-z_0)^n, \quad  g(z):= \sum _{n=0}^{\infty }b_n(z-z_0)^n \ ,]]></fr:tex> be two power series that are convergent for all <fr:tex display="inline"><![CDATA[z \in  D(z_0, R)]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\{w_k\} \subseteq  D(z_0, R)]]></fr:tex> be a sequence of complex numbers s.t. <fr:tex display="inline"><![CDATA[\lim _{k \to  \infty }w_k = z_0]]></fr:tex> but <fr:tex display="inline"><![CDATA[w_k \neq  z_0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[k \in  \mathbb {N}]]></fr:tex>. If <fr:tex display="inline"><![CDATA[f(w_k) = g(w_k)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[k]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a_n = b_n]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\geq  0]]></fr:tex>, that is, <fr:tex display="inline"><![CDATA[f(z) = g(z)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[z \in  D(z_0, R).]]></fr:tex></html:p>
                     <html:p>In other words, if two convergent power series are equal on an countable set of elements of the complex plane, then they are equal (everywhere else).</html:p>
                   </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://d-atif.github.io/output/elementary-functions/</fr:uri>
+                <fr:display-uri>elementary-functions</fr:display-uri>
+                <fr:route>/output/elementary-functions/</fr:route>
+                <fr:title text="Elementary functions">Elementary functions</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>There are two important elementary functions, from which other elementary functions, like trigonometric, hyperbolic or power functions can be defined. Those two functions are the exponential function and the logarithm.</html:p>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Exponential function">Exponential function</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        The function <fr:tex display="inline"><![CDATA[e^z: \mathbb {C} \to  \mathbb {C}]]></fr:tex> (or <fr:tex display="inline"><![CDATA[\text {exp}(z)]]></fr:tex>) is defined as the value of the following convergent power series: <fr:tex display="block"><![CDATA[e^z := \sum _{n=0}^{\infty }\frac {z^n}{n!} \ .]]></fr:tex></html:p>
+                    <html:p>The complex exponential function has the same properties as its real counterpart.</html:p>
+                    <html:p>Based on what we said earlier, it's easy to see that <fr:tex display="inline"><![CDATA[e^z]]></fr:tex> is holomorphic on <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> and that <fr:tex display="inline"><![CDATA[(e^z)' = e^z]]></fr:tex> for all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex>. It's also the only such function, ie. the only function for which <fr:tex display="inline"><![CDATA[f'(z) = f(z)]]></fr:tex> and <fr:tex display="inline"><![CDATA[f(0) = 1]]></fr:tex> holds, and this can be used as an equivalent definition of the exponential function, namely, we can define it for all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex> as <fr:tex display="block"><![CDATA[e^z : = e^x (\cos  y + i \sin  y).]]></fr:tex></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>Let us now observe how the exponential function behaves in the complex plane.</html:p>
+                <html:p>For <fr:tex display="inline"><![CDATA[z \in  \mathbb {R}]]></fr:tex>, <fr:tex display="inline"><![CDATA[e^z]]></fr:tex> maps <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> to <fr:tex display="inline"><![CDATA[(0, \infty )]]></fr:tex>.</html:p>
+                <html:p>For a fixed <fr:tex display="inline"><![CDATA[y_0]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathbb {C} \ni  z = x + iy_0]]></fr:tex> is a horizontal line. Let's see to what this line gets mapped to via the exp function. By the division algorithm, we can get <fr:tex display="inline"><![CDATA[y_0 = k\cdot  2\pi  + r]]></fr:tex> etc. then we have <fr:tex display="inline"><![CDATA[e^z = e^x e^{ir} = e^x (\cos  r + i \sin  r), ]]></fr:tex> which is a ray from the origin, making an angle of <fr:tex display="inline"><![CDATA[r]]></fr:tex> with the positive real axis.</html:p>
+                <html:p>Consider now a vertical line <fr:tex display="inline"><![CDATA[z = x_0 + iy]]></fr:tex>. We can see that a vertical lines gets mapped to a circle of radius <fr:tex display="inline"><![CDATA[e^{x_0}]]></fr:tex>, since <fr:tex display="inline"><![CDATA[e^z = e^{x_0}(\cos  y + i \sin  y).]]></fr:tex></html:p>
+                <html:p>It can easily be shown that the exponential is injective on every horizontal strip <fr:tex display="inline"><![CDATA[ \{z \in  \mathbb {C} : a < \text {Im}(z) \leq  a + 2 \pi  \} ]]></fr:tex> of the complex plane, for any <fr:tex display="inline"><![CDATA[a \in  \mathbb {R}]]></fr:tex>, and it maps this strip to the whole complex plane.</html:p>
+                <html:p>From the above we deduce that for a given point <fr:tex display="inline"><![CDATA[w_0 = |w_0|e^{i\text {Arg}(w_0)}]]></fr:tex> of the <fr:tex display="inline"><![CDATA[w]]></fr:tex>-plane there's infinitely many points of the <fr:tex display="inline"><![CDATA[z]]></fr:tex>-plane that map into <fr:tex display="inline"><![CDATA[w_0]]></fr:tex>. Those points are <fr:tex display="inline"><![CDATA[z_k(w_0) = \log (|w_0|) + i\text {Arg}(w_0)+2\pi  i k]]></fr:tex>, for any <fr:tex display="inline"><![CDATA[k \in  \mathbb {Z}]]></fr:tex>.</html:p>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Logarithm">Logarithm</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter />
                 </fr:tree>
               </fr:mainmatter>
             </fr:tree>
