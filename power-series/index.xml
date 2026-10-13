@@ -557,6 +557,123 @@
                 <html:p>For non-principal branches the following identity holds: <fr:tex display="inline"><![CDATA[\log (zw) = \log  z + \log  w]]></fr:tex>. For the principal branch for all <fr:tex display="inline"><![CDATA[z,w \in  \mathbb {C} \setminus  \{0\}]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\text {Log}(zw) = \text {Log}(z) + \text {Log}(w) + 2k\pi  i]]></fr:tex>, for some <fr:tex display="inline"><![CDATA[k \in  \{-1,0,1\}]]></fr:tex>.</html:p>
               </fr:mainmatter>
             </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://d-atif.github.io/output/trig-hyp-pow/</fr:uri>
+                <fr:display-uri>trig-hyp-pow</fr:display-uri>
+                <fr:route>/output/trig-hyp-pow/</fr:route>
+                <fr:title text="Trig, hyperbolic and power functions">Trig, hyperbolic and power functions</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Cos and Sin">Cos and Sin</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Functions <fr:tex display="inline"><![CDATA[\cos  z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\sin  z]]></fr:tex> are defined for all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex> with: <fr:tex display="block"><![CDATA[\cos  z := \frac {1}{2}(e^{iz}+e^{-iz}) \ ,]]></fr:tex> <fr:tex display="block"><![CDATA[\sin  z := \frac {1}{2i}(e^{iz}-e^{-iz}) \ .]]></fr:tex></html:p>
+                    <html:p>
+        For example the set of solutions of <fr:tex display="inline"><![CDATA[\sin  z = 0]]></fr:tex> is <fr:tex display="inline"><![CDATA[\{k\pi :k \in  \mathbb {Z}\}]]></fr:tex>, and the set of solutions of <fr:tex display="inline"><![CDATA[\cos  z = 0]]></fr:tex> is <fr:tex display="inline"><![CDATA[\{\pi  /2 + k\pi  : k \in  Z\}]]></fr:tex>.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Tan and Ctan">Tan and Ctan</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p><fr:tex display="block"><![CDATA[\tan  z := \frac {\sin  z}{\cos  z} \text { for } z \in  \mathbb {C} \setminus  \{\frac {\pi }{2} + k\pi  : k \in  \mathbb {Z} \} \ .]]></fr:tex>
+        
+        <fr:tex display="block"><![CDATA[\ctan  z := \frac {\cos  z}{\sin  z} \text { for } z \in  \mathbb {C} \setminus  \{k\pi  : k \in  \mathbb {Z} \} \ .]]></fr:tex></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>Complex trigonometric functions obey the usual analogous identities as their counterparts. Sin and cos are also obviously holomorphic on the whole complex plane and their derivatives are analogous to their real counterparts.</html:p>
+                <html:p>The following could've been a definition of the <fr:tex display="inline"><![CDATA[\cos ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\sin ]]></fr:tex> functions.</html:p>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Taylor series of cos and sin">Taylor series of cos and sin</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        For all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex> it holds <fr:tex display="block"><![CDATA[\cos  z = \sum \limits _{n=0}^{\infty } \frac {(-1)^n z^{2n}}{(2n)!} \ ,]]></fr:tex> <fr:tex display="block"><![CDATA[\sin  z = \sum \limits _{n=0}^{\infty } \frac {(-1)^n z^{2n+1}}{(2n+1)!}.]]></fr:tex> Both of these series converge absolutely and uniformly.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Cosh and Sinh">Cosh and Sinh</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        We define <fr:tex display="inline"><![CDATA[\cosh  z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\sinh  z]]></fr:tex> for all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex> with: <fr:tex display="block"><![CDATA[ \cosh  z := \frac {1}{2}(e^{z} + e^{-z}), ]]></fr:tex> <fr:tex display="block"><![CDATA[\sinh  z := \frac {1}{2}(e^{z} - e^{-z}).]]></fr:tex></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>From the so far listed definitions, it's straightforward to see that <fr:tex display="inline"><![CDATA[\sin  z = 1/i \sinh (iz) = -i \sinh  (iz)]]></fr:tex> and that <fr:tex display="inline"><![CDATA[\cos  z = \cosh  (iz)]]></fr:tex>.</html:p>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Properties of sinh and cosh">Properties of sinh and cosh</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:ol><html:li><fr:tex display="inline"><![CDATA[\sinh  z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\cosh  z]]></fr:tex> are periodic of period <fr:tex display="inline"><![CDATA[2\pi  i]]></fr:tex>.
+        </html:li>
+        <html:li><fr:tex display="inline"><![CDATA[\cosh  z]]></fr:tex> is even and <fr:tex display="inline"><![CDATA[\sinh  z]]></fr:tex> is odd.
+        </html:li>
+        <html:li>
+            For all <fr:tex display="inline"><![CDATA[z,w \in  \mathbb {C}]]></fr:tex> additive formulas hold.
+        </html:li>
+        <html:li><fr:tex display="inline"><![CDATA[\sinh  z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\cosh  z]]></fr:tex> are holomorphic on <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> and their derivatives are the usual ones.
+        </html:li>
+        <html:li>
+            For all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex> the equality holds <fr:tex display="inline"><![CDATA[\cosh ^2 z - \sinh ^2 z =1]]></fr:tex>.
+        </html:li></html:ol>
+                    <html:p>Let us note here that <fr:tex display="inline"><![CDATA[x^2 - y^2 = 1]]></fr:tex> is the equation of the central unit hyperbola in the plane, that's where the "hyperbolic" comes from.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>
+    For example, the solutions of the equation <fr:tex display="inline"><![CDATA[\sinh  z = 0]]></fr:tex> is the set <fr:tex display="inline"><![CDATA[\{k\pi  i : k \in  \mathbb {Z} \}]]></fr:tex> and the set of solutions of <fr:tex display="inline"><![CDATA[\cosh  z = 0]]></fr:tex> is <fr:tex display="inline"><![CDATA[\{\pi  i /2 + k\pi  i : k \in  \mathbb {Z}\}.]]></fr:tex></html:p>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Tanh and Ctanh">Tanh and Ctanh</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p><fr:tex display="block"><![CDATA[\tanh  z := \frac {\sinh  z}{\cosh  z}, \ z \in  \mathbb {C} \setminus  \{\pi  i/2 + k\pi  i : k \in  \mathbb {Z}\},]]></fr:tex> <fr:tex display="block"><![CDATA[\ctanh  z := \frac {\cosh  z}{\sinh  z}, \ z \in  \mathbb {C} \setminus  \{k\pi  i : k \in  \mathbb {Z}\}]]></fr:tex>.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Taylor series of cos and sin">Taylor series of cos and sin</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        For all <fr:tex display="inline"><![CDATA[z \in  \mathbb {C}]]></fr:tex> it holds <fr:tex display="block"><![CDATA[\cosh  z = \sum \limits _{n=0}^{\infty }\frac {z^{2n}}{(2n)!} \ ,]]></fr:tex> <fr:tex display="block"><![CDATA[\sinh  z = \sum \limits _{n=0}^{\infty }\frac {z^{2n+1}}{(2n+1)!} \ .]]></fr:tex></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Power map">Power map</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter />
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
