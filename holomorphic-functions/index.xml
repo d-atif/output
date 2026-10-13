@@ -550,8 +550,8 @@
                     <fr:taxon>Definition</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
-                    <html:p><fr:tex display="block"><![CDATA[\tan  z := \frac {\sin  z}{\cos  z} \text { for } z \in  \mathbb {C} \setminus  \{\frac {\pi }{2} + k\pi  : k \in  \mathbb {Z} \} \ .]]></fr:tex>
-        
+                    <html:p><fr:tex display="block"><![CDATA[\tan  z := \frac {\sin  z}{\cos  z} \text { for } z \in  \mathbb {C} \setminus  \{\frac {\pi }{2} + k\pi  : k \in  \mathbb {Z} \} \ ,]]></fr:tex>
+        and
         <fr:tex display="block"><![CDATA[\ctan  z := \frac {\cos  z}{\sin  z} \text { for } z \in  \mathbb {C} \setminus  \{k\pi  : k \in  \mathbb {Z} \} \ .]]></fr:tex></html:p>
                   </fr:mainmatter>
                 </fr:tree>
@@ -612,7 +612,7 @@
                     <fr:taxon>Definition</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
-                    <html:p><fr:tex display="block"><![CDATA[\tanh  z := \frac {\sinh  z}{\cosh  z}, \ z \in  \mathbb {C} \setminus  \{\pi  i/2 + k\pi  i : k \in  \mathbb {Z}\},]]></fr:tex> <fr:tex display="block"><![CDATA[\ctanh  z := \frac {\cosh  z}{\sinh  z}, \ z \in  \mathbb {C} \setminus  \{k\pi  i : k \in  \mathbb {Z}\}]]></fr:tex>.
+                    <html:p><fr:tex display="block"><![CDATA[\tanh  z := \frac {\sinh  z}{\cosh  z}, \ z \in  \mathbb {C} \setminus  \{\pi  i/2 + k\pi  i : k \in  \mathbb {Z}\},]]></fr:tex> and <fr:tex display="block"><![CDATA[\ctanh  z := \frac {\cosh  z}{\sinh  z}, \ z \in  \mathbb {C} \setminus  \{k\pi  i : k \in  \mathbb {Z}\}]]></fr:tex>.
     </html:p>
                   </fr:mainmatter>
                 </fr:tree>
