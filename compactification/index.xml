@@ -410,7 +410,7 @@
                 <fr:uri>https://d-atif.github.io/output/elementary-functions/</fr:uri>
                 <fr:display-uri>elementary-functions</fr:display-uri>
                 <fr:route>/output/elementary-functions/</fr:route>
-                <fr:title text="Complex exp&amp;log functions">Complex exp&amp;log functions</fr:title>
+                <fr:title text="Elementary function">Elementary function</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>There are two important elementary functions, from which other elementary functions, like trigonometric, hyperbolic or power functions can be defined. Those two functions are the exponential function and the logarithm.</html:p>
