@@ -434,7 +434,7 @@
                 <html:p>It can easily be shown that the exponential is injective on every horizontal strip <fr:tex display="inline"><![CDATA[ \{z \in  \mathbb {C} : a < \text {Im}(z) \leq  a + 2 \pi  \} ]]></fr:tex> of the complex plane, for any <fr:tex display="inline"><![CDATA[a \in  \mathbb {R}]]></fr:tex>, and it maps this strip to the whole complex plane.</html:p>
                 <html:p>From the above we deduce that for a given point <fr:tex display="inline"><![CDATA[w_0 = |w_0|e^{i\text {Arg}(w_0)}]]></fr:tex> of the <fr:tex display="inline"><![CDATA[w]]></fr:tex>-plane there's infinitely many points of the <fr:tex display="inline"><![CDATA[z]]></fr:tex>-plane that map into <fr:tex display="inline"><![CDATA[w_0]]></fr:tex>. Those points are <fr:tex display="inline"><![CDATA[z_k(w_0) = \log (|w_0|) + i\text {Arg}(w_0)+2\pi  i k]]></fr:tex>, for any <fr:tex display="inline"><![CDATA[k \in  \mathbb {Z}]]></fr:tex>.</html:p>
                 <html:p>We can now move onto the complex logarithm.</html:p>
-                <html:p>The real exponential function is a bijective mapping from <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> to <fr:tex display="inline"><![CDATA[(0,\infty )]]></fr:tex>, and as such it had an inverse function, namely the logarithm. However, as we have seen in the last paragraph above, the exponential function is not injective, so it's less clear how we should go about defining the complex logarithm. For starters, we will define it as a multi-valued function, but we will see that from there we can obtain a well behaved "usual" function (by choosing a specific <html:em>branch</html:em> of the complex log).</html:p>
+                <html:p>The real exponential function is a bijective mapping from <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> to <fr:tex display="inline"><![CDATA[(0,\infty )]]></fr:tex>, and as such it had an inverse function, namely the logarithm. However, as we have seen in the last paragraph above, the exponential function is not injective, so it's less clear how we should go about defining the complex logarithm. For starters, we will define it as a multi-valued function, but we will see that from there we can obtain a well behaved "norma" single-valued function (by choosing a specific <html:em>branch</html:em> of the complex log).</html:p>
                 <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
@@ -455,17 +455,7 @@
                 <html:p>Let's now show how to construct the Riemann surface of the complex log function.</html:p>
                 <html:p>Observe the sequence of functions <fr:tex display="inline"><![CDATA[f_k(z) = w_k = \ln  |z| + i \text {Arg}(z) + 2k \pi  i, \ k \in  \mathbb {Z}]]></fr:tex>, ie. the sequence of the branches of the log function, on the cut <fr:tex display="inline"><![CDATA[z]]></fr:tex>-plane <fr:tex display="inline"><![CDATA[\mathbb {C}\setminus \lparen  -\infty , 0 \rbrack ]]></fr:tex>. By the same reasoning above as for the main branch <fr:tex display="inline"><![CDATA[f_0]]></fr:tex>, we have that all branches <fr:tex display="inline"><![CDATA[f_k]]></fr:tex> map <fr:tex display="inline"><![CDATA[\mathbb {C} \setminus  \lparen  -\infty , 0 \rbrack  ]]></fr:tex> onto the horizontal strip <fr:tex display="inline"><![CDATA[\{w \in  \mathbb {C} : 2k\pi  - \pi  < \text {Im}(w) < 2k\pi  + \pi \}]]></fr:tex>. Now for every <fr:tex display="inline"><![CDATA[k \in  \mathbb {Z}]]></fr:tex> we can define <fr:tex display="inline"><![CDATA[S_k := \mathbb {C} \setminus  \lparen  -\infty , 0 \rbrack  ]]></fr:tex>. Now, we can obtain a surface <fr:tex display="inline"><![CDATA[S]]></fr:tex> by glueing <fr:tex display="inline"><![CDATA[S_k]]></fr:tex> and <fr:tex display="inline"><![CDATA[S_{k-1}]]></fr:tex> along their cuts in the following way: the part above the cut of <fr:tex display="inline"><![CDATA[S_k]]></fr:tex>, ie. the part that's in the strictly positive half-plane we glue to the part below the cut of <fr:tex display="inline"><![CDATA[S_{k-1}]]></fr:tex>, ie. the part that's in the negative half-plane; we proceed inductively for every <fr:tex display="inline"><![CDATA[k]]></fr:tex>. What did we achieve with this? Well, let's look at the following limits for <fr:tex display="inline"><![CDATA[k]]></fr:tex>-th branches: <fr:tex display="block"><![CDATA[\lim \limits _{z \to  r+i0} f_k(z) = \ln  |r| + i(2k+1)\pi , \quad  \lim \limits _{z \to  r-i0} f_k(z) = \ln  |r| + i(2k-1)\pi  = \lim \limits _{z \to  r+i0} f_{k-1}(z).]]></fr:tex> This enables us that the function <fr:tex display="inline"><![CDATA[f(z):S \to  \mathbb {C}, \  f(z):= f_k(z)]]></fr:tex> for <fr:tex display="inline"><![CDATA[z \in  S_k]]></fr:tex> becomes continuous. Moreover, <fr:tex display="inline"><![CDATA[f(z) = \log  z]]></fr:tex>, in the sense that values of <fr:tex display="inline"><![CDATA[f(z)]]></fr:tex> coincide with <fr:tex display="inline"><![CDATA[\log  z]]></fr:tex> for points of the surface <fr:tex display="inline"><![CDATA[S]]></fr:tex> that correspond to the complex numbers <fr:tex display="inline"><![CDATA[z]]></fr:tex>. Such constructed surface <fr:tex display="inline"><![CDATA[S]]></fr:tex> is the <html:em>Riemann surface of the complex logarithm function</html:em>. Since there's a bijective correspondence between <fr:tex display="inline"><![CDATA[S]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {C} \setminus  \{0\}]]></fr:tex>, this surface can be viewed as a sphere with its points at the north and south poles removed.</html:p>
                 <html:p>For non-principal branches the following identity holds: <fr:tex display="inline"><![CDATA[\log (zw) = \log  z + \log  w]]></fr:tex>. For the principal branch for all <fr:tex display="inline"><![CDATA[z,w \in  \mathbb {C} \setminus  \{0\}]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\text {Log}(zw) = \text {Log}(z) + \text {Log}(w) + 2k\pi  i]]></fr:tex>, for some <fr:tex display="inline"><![CDATA[k \in  \{-1,0,1\}]]></fr:tex>.</html:p>
-              </fr:mainmatter>
-            </fr:tree>
-            <fr:tree show-metadata="false" numbered="false">
-              <fr:frontmatter>
-                <fr:authors />
-                <fr:uri>https://d-atif.github.io/output/trig-hyp-pow/</fr:uri>
-                <fr:display-uri>trig-hyp-pow</fr:display-uri>
-                <fr:route>/output/trig-hyp-pow/</fr:route>
-                <fr:title text="Trig, hyperbolic and power functions">Trig, hyperbolic and power functions</fr:title>
-              </fr:frontmatter>
-              <fr:mainmatter>
+                <html:p>Now we can move onto defining other elementary functions that are defined ontop of the exp function and the log function.</html:p>
                 <fr:tree show-metadata="false" toc="false">
                   <fr:frontmatter>
                     <fr:authors />
@@ -570,8 +560,23 @@
                     <fr:title text="Power map">Power map</fr:title>
                     <fr:taxon>Definition</fr:taxon>
                   </fr:frontmatter>
-                  <fr:mainmatter />
+                  <fr:mainmatter>
+                    <html:p>
+        Let <fr:tex display="inline"><![CDATA[\alpha  \in  \mathbb {C}\setminus \{0\}]]></fr:tex>. The <html:em>complex power function</html:em> <fr:tex display="inline"><![CDATA[z^\alpha ]]></fr:tex> is defined as a multi-valued function in the following way: <fr:tex display="block"><![CDATA[z^\alpha  : = e^{\alpha  \ln  z} \ , \ \text {for } k \in  \mathbb {Z}.]]></fr:tex></html:p>
+                    <html:p>
+        We immediately observe <fr:tex display="block"><![CDATA[z^\alpha  : = e^{\alpha  \ln  z} = e^{\alpha (\log  |z| + i\text {Arg}(z) + 2k \pi  i) = e^{\alpha  \text {Log}(z)}e^{2\alpha  k \pi  i}}]]></fr:tex>.
+    </html:p>
+                  </fr:mainmatter>
                 </fr:tree>
+                <html:p>Some remarks are in order.</html:p>
+                <html:p>
+    The power function <fr:tex display="inline"><![CDATA[z^\alpha ]]></fr:tex> is single-valued if <fr:tex display="inline"><![CDATA[\alpha  \in  \mathbb {Z}]]></fr:tex>, since then <fr:tex display="inline"><![CDATA[e^{2\alpha  k \pi  i} = 1]]></fr:tex> for all <fr:tex display="inline"><![CDATA[k \in  \mathbb {Z}]]></fr:tex>. For <fr:tex display="inline"><![CDATA[\alpha  > 0]]></fr:tex>, it can also be defined in <fr:tex display="inline"><![CDATA[z=0]]></fr:tex> (by continuity).
+</html:p>
+                <html:p>
+    If <fr:tex display="inline"><![CDATA[\alpha  = 1/n]]></fr:tex> for <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[e^{2k\pi  i/n}]]></fr:tex> evaluates to exactly <fr:tex display="inline"><![CDATA[n]]></fr:tex> different values (<fr:tex display="inline"><![CDATA[n]]></fr:tex>-th roots ofunity), thus in this case <fr:tex display="inline"><![CDATA[z^{1/n}]]></fr:tex> has <fr:tex display="inline"><![CDATA[n]]></fr:tex> branches and those are <fr:tex display="inline"><![CDATA[n]]></fr:tex>-th roots of <fr:tex display="inline"><![CDATA[z]]></fr:tex>.
+</html:p>
+                <html:p>We can construct the Riemann surface of <fr:tex display="inline"><![CDATA[z^{1/n}]]></fr:tex>, for <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex> in the following way.</html:p>
+                <html:p />
               </fr:mainmatter>
             </fr:tree>
           </fr:mainmatter>
