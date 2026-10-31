@@ -679,6 +679,59 @@
 </html:p>
               </fr:mainmatter>
             </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://d-atif.github.io/output/conformal-mappings/</fr:uri>
+                <fr:display-uri>conformal-mappings</fr:display-uri>
+                <fr:route>/output/conformal-mappings/</fr:route>
+                <fr:title text="Conformal mappings">Conformal mappings</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+       An important (local, ofc) aspect of analytic functions is that they preserve angles between curves.
+    </html:p>
+                <html:p>
+    Let's first remember that a smooth curve in complex plane is a mapping <fr:tex display="inline"><![CDATA[\gamma  : [0,1] \to  \mathbb {C}]]></fr:tex> defined with <fr:tex display="inline"><![CDATA[\gamma (t) = x(t) + iy(t)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[x(t), y(t)]]></fr:tex> are smooth real functions on <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex>.
+</html:p>
+                <fr:tree show-metadata="false" toc="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Tangent vector">Tangent vector</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Let <fr:tex display="inline"><![CDATA[\gamma : [0,1] \to  \mathbb {C}]]></fr:tex> be a smooth parametrised curve that passes through the point <fr:tex display="inline"><![CDATA[z_0 = \gamma (0). The vector \gamma '(0) = (x'(0), y'(0))]]></fr:tex> is called the <html:em>tangent vector</html:em> of the curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> in point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>.
+    </html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:title text="Angle between curves">Angle between curves</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        The angle between two smooth parametrised curves <fr:tex display="inline"><![CDATA[\gamma _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\gamma _2]]></fr:tex> that pass through a common point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> is defined as the angle between the tangent vectors of those curves at <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>.
+    </html:p>
+                    <html:p>
+        If the curves <fr:tex display="inline"><![CDATA[\gamma _1, \gamma _2]]></fr:tex> are curves as in the definition, then we can obtain the cosine of the angle <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> between them with <fr:tex display="block"><![CDATA[\cos  \varphi  = \fra {x_1'(0)x_2'(0) + y_1'(0)y_2'(0)}{|\gamma _1'(0)| \cdot  |\gamma _2'(0)|} \ .]]></fr:tex></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" toc="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+        Let <fr:tex display="inline"><![CDATA[\gamma :[0,1]\to  \mathbb {C}]]></fr:tex> be a smooth parametrised curve that passes through the point <fr:tex display="inline"><![CDATA[z_0 = \gamma (0)]]></fr:tex> and let <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a complex function, analytic in <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>. Then the tangent to the curve <fr:tex display="inline"><![CDATA[f \circ  \gamma ]]></fr:tex> that passes through the point <fr:tex display="inline"><![CDATA[f(z_0)]]></fr:tex> is given with <fr:tex display="block"><![CDATA[(f \circ  \gamma )'(0) = f'(z_0)\gamma '(0).]]></fr:tex></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
