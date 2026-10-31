@@ -674,7 +674,9 @@
     If <fr:tex display="inline"><![CDATA[\alpha  = 1/n]]></fr:tex> for <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[e^{2k\pi  i/n}]]></fr:tex> evaluates to exactly <fr:tex display="inline"><![CDATA[n]]></fr:tex> different values (<fr:tex display="inline"><![CDATA[n]]></fr:tex>-th roots ofunity), thus in this case <fr:tex display="inline"><![CDATA[z^{1/n}]]></fr:tex> has <fr:tex display="inline"><![CDATA[n]]></fr:tex> branches and those are <fr:tex display="inline"><![CDATA[n]]></fr:tex>-th roots of <fr:tex display="inline"><![CDATA[z]]></fr:tex>.
 </html:p>
                 <html:p>We can construct the Riemann surface of <fr:tex display="inline"><![CDATA[z^{1/n}]]></fr:tex>, for <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex> in the following way.</html:p>
-                <html:p />
+                <html:p>
+    We skip this for now.
+</html:p>
               </fr:mainmatter>
             </fr:tree>
           </fr:mainmatter>
