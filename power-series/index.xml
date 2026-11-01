@@ -702,7 +702,7 @@
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:p>
-        Let <fr:tex display="inline"><![CDATA[\gamma : [0,1] \to  \mathbb {C}]]></fr:tex> be a smooth parametrised curve that passes through the point <fr:tex display="inline"><![CDATA[z_0 = \gamma (0). The vector \gamma '(0) = (x'(0), y'(0))]]></fr:tex> is called the <html:em>tangent vector</html:em> of the curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> in point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>.
+        Let <fr:tex display="inline"><![CDATA[\gamma : [0,1] \to  \mathbb {C}]]></fr:tex> be a smooth parametrised curve that passes through the point <fr:tex display="inline"><![CDATA[z_0 = \gamma (0)]]></fr:tex>. The vector <fr:tex display="inline"><![CDATA[\gamma '(0) = (x'(0), y'(0))]]></fr:tex> is called the <html:em>tangent vector</html:em> of the curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> in point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>.
     </html:p>
                   </fr:mainmatter>
                 </fr:tree>
@@ -717,7 +717,7 @@
         The angle between two smooth parametrised curves <fr:tex display="inline"><![CDATA[\gamma _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\gamma _2]]></fr:tex> that pass through a common point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> is defined as the angle between the tangent vectors of those curves at <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>.
     </html:p>
                     <html:p>
-        If the curves <fr:tex display="inline"><![CDATA[\gamma _1, \gamma _2]]></fr:tex> are curves as in the definition, then we can obtain the cosine of the angle <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> between them with <fr:tex display="block"><![CDATA[\cos  \varphi  = \fra {x_1'(0)x_2'(0) + y_1'(0)y_2'(0)}{|\gamma _1'(0)| \cdot  |\gamma _2'(0)|} \ .]]></fr:tex></html:p>
+        If the curves <fr:tex display="inline"><![CDATA[\gamma _1, \gamma _2]]></fr:tex> are curves as in the definition, then we can obtain the cosine of the angle <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> between them with <fr:tex display="block"><![CDATA[\cos {\varphi } = \frac {x_1'(0)x_2'(0) + y_1'(0)y_2'(0)}{|\gamma _1'(0)| \cdot  |\gamma _2'(0)|} \ .]]></fr:tex></html:p>
                   </fr:mainmatter>
                 </fr:tree>
                 <fr:tree show-metadata="false" toc="false" numbered="false">
